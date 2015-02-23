@@ -1,0 +1,13 @@
+12:51:01 **** Build of configuration Debug for project axi_vdma_display ****
+make all 
+'Building file: ../src/axi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/axi_display.d" -MT"src/axi_display.d" -o "src/axi_display.o" "../src/axi_display.c"
+../src/axi_display.c:48:24: fatal error: xil_printf.h: No such file or directory
+ #include <xil_printf.h>
+                        ^
+compilation terminated.
+make: *** [src/axi_display.o] Erreur 1
+
+12:51:03 Build Finished (took 1s.380ms)
+

@@ -1,0 +1,21 @@
+13:13:35 **** Incremental Build of configuration Debug for project Top_2_mpeg_arm ****
+make all 
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_2_mpeg_arm\src" -I"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\inc" -c -fmessage-length=0 -I../../sys_4_arm_00_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display.d" -MT"src/display.d" -o "src/display.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/display.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/display.c'
+' '
+'Building target: Top_2_mpeg_arm.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_arm\orcc" -L"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\lib" -Wl,-T -Wl,../src/lscript.ld -L../../sys_4_arm_00_bsp/ps7_cortexa9_0/lib -o "Top_2_mpeg_arm.elf"  ./src/Top_decoder_serial.o ./src/decoder_merger.o ./src/decoder_motion_add.o ./src/decoder_motion_framebuf.o ./src/decoder_motion_interpolation.o ./src/decoder_parser_blkexp.o ./src/decoder_parser_mvrecon.o ./src/decoder_parser_mvseq.o ./src/decoder_parser_parseheaders.o ./src/decoder_texture_DCReconstruction_addressing.o ./src/decoder_texture_DCReconstruction_invpred.o ./src/decoder_texture_DCsplit.o ./src/decoder_texture_IAP.o ./src/decoder_texture_IQ.o ./src/decoder_texture_IS.o ./src/decoder_texture_idct2d.o ./src/display.o ./src/display_adv7511.o ./src/my_cf_hdmi.o ./src/source.o ./src/sourceFileMgr.o ./src/transmitter.o   -lHDMI_ZynqLib -lorcc -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Top_2_mpeg_arm.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Top_2_mpeg_arm.elf  |tee "Top_2_mpeg_arm.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 445508	   4776	 159624	 609908	  94e74	Top_2_mpeg_arm.elf
+'Finished building: Top_2_mpeg_arm.elf.size'
+' '
+
+13:13:36 Build Finished (took 1s.220ms)
+

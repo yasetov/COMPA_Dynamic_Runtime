@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Top_05</name>
+	<comment></comment>
+	<projects>
+		<project>bsp_cluster0_mb5</project>
+		<project>bsp_mb_16_32</project>
+		<project>bsp_mb_15_64</project>
+		<project>bsp_mb_12_64_hdmi</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/Top_05.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/orcc-gen/mpeg4Visual/serial/Compa/src/Top_05/Top_05.c</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

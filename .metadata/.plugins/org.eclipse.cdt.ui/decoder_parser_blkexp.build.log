@@ -1,0 +1,7 @@
+10:58:50 **** Clean-only build of configuration Release for project decoder_parser_blkexp ****
+make clean 
+rm -rf  ./src/Top_decoder_parser_blkexp.o ./src/decoder_parser_blkexp.o  ./src/Top_decoder_parser_blkexp.d ./src/decoder_parser_blkexp.d  decoder_parser_blkexp.elf.size  decoder_parser_blkexp.elf
+' '
+
+10:58:51 Build Finished (took 380ms)
+

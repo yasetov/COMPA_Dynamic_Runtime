@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Top_arm_00_/src/ctrl_fifos.h&apos; to &apos;ctrl_fifos.hh&apos;" description="Rename resource &apos;ctrl_fifos.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ctrl_fifos.h" name="ctrl_fifos.hh" stamp="1424251670080" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Top_arm_00_/src/ctrl_fifos.hh&apos; to &apos;ctrl_fifos.h&apos;" description="Rename resource &apos;ctrl_fifos.hh&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ctrl_fifos.hh" name="ctrl_fifos.h" stamp="1424251712940" updateReferences="true"/>
+</session>

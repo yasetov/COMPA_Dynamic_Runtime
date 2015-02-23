@@ -1,0 +1,21 @@
+11:14:19 **** Build of project mpeg_libs_mb ****
+"C:\\MinGW\\bin\\mingw32-make.exe" all 
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs -BC:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb --check-build-system CMakeFiles\Makefile.cmake 0
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_start C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\CMakeFiles C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\CMakeFiles\progress.marks
+C:/MinGW/bin/mingw32-make -f CMakeFiles\Makefile2 all
+mingw32-make[1]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_mb'
+C:/MinGW/bin/mingw32-make -f orcc\CMakeFiles\orcc.dir\build.make orcc/CMakeFiles/orcc.dir/depend
+mingw32-make[2]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_mb'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\orcc C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\orcc\CMakeFiles\orcc.dir\DependInfo.cmake --color=
+mingw32-make[2]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_mb'
+C:/MinGW/bin/mingw32-make -f orcc\CMakeFiles\orcc.dir\build.make orcc/CMakeFiles/orcc.dir/build
+mingw32-make[2]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_mb'
+mingw32-make[2]: Nothing to be done for 'orcc/CMakeFiles/orcc.dir/build'.
+mingw32-make[2]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_mb'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\CMakeFiles  1 2 3 4 5 6
+[100%] Built target orcc
+mingw32-make[1]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_mb'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_start C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\CMakeFiles 0
+
+11:14:21 Build Finished (took 1s.844ms)
+

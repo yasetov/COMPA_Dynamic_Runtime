@@ -1,0 +1,41 @@
+13:49:55 **** Build of configuration Debug for project Top_mpeg_mb ****
+make all 
+'Building file: ../src/Top_decoder_serial.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_arm\src" -c -fmessage-length=0 -I../../mb_00_bsp/Cluster_0_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Top_decoder_serial.d" -MT"src/Top_decoder_serial.d" -o "src/Top_decoder_serial.o" "../src/Top_decoder_serial.c"
+'Finished building: ../src/Top_decoder_serial.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_merger.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_arm\src" -c -fmessage-length=0 -I../../mb_00_bsp/Cluster_0_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_merger.d" -MT"src/decoder_merger.d" -o "src/decoder_merger.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_merger.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_merger.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_blkexp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_arm\src" -c -fmessage-length=0 -I../../mb_00_bsp/Cluster_0_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_parser_blkexp.d" -MT"src/decoder_parser_blkexp.d" -o "src/decoder_parser_blkexp.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_blkexp.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_blkexp.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvrecon.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_arm\src" -c -fmessage-length=0 -I../../mb_00_bsp/Cluster_0_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_parser_mvrecon.d" -MT"src/decoder_parser_mvrecon.d" -o "src/decoder_parser_mvrecon.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvrecon.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvrecon.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvseq.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_arm\src" -c -fmessage-length=0 -I../../mb_00_bsp/Cluster_0_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_parser_mvseq.d" -MT"src/decoder_parser_mvseq.d" -o "src/decoder_parser_mvseq.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvseq.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvseq.c'
+' '
+'Building target: Top_mpeg_mb.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\orcc" -Wl,-T -Wl,../src/lscript.ld -L../../mb_00_bsp/Cluster_0_microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Top_mpeg_mb.elf"  ./src/Top_decoder_serial.o ./src/decoder_merger.o ./src/decoder_parser_blkexp.o ./src/decoder_parser_mvrecon.o ./src/decoder_parser_mvseq.o   -lorcc -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Top_mpeg_mb.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Top_mpeg_mb.elf  |tee "Top_mpeg_mb.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29568	    684	   2656	  32908	   808c	Top_mpeg_mb.elf
+'Finished building: Top_mpeg_mb.elf.size'
+' '
+
+13:49:57 Build Finished (took 2s.522ms)
+

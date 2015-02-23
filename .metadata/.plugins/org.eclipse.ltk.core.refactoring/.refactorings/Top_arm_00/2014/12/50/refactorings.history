@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Top_arm_00/src/display_adv7511.c&apos; to &apos;HDMIController.c&apos;" description="Rename resource &apos;display_adv7511.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/display_adv7511.c" name="HDMIController.c" stamp="1418396203325" updateReferences="true"/>
+</session>

@@ -1,0 +1,23 @@
+11:26:01 **** Build of configuration Debug for project cf_adv7511_zc706_app ****
+make all 
+'Building file: ../src/cf_hdmi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\cf_adv7511_zc706_app\inc" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\cf_adv7511_zc706_app\src" -c -fmessage-length=0 -I../../cf_adv7511_zc706_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cf_hdmi.d" -MT"src/cf_hdmi.d" -o "src/cf_hdmi.o" "../src/cf_hdmi.c"
+../src/cf_hdmi.c: In function 'AudioClick':
+../src/cf_hdmi.c:217:29: error: 'XPAR_AXI_SPDIF_TX_CORE_BASEADDR' undeclared (first use in this function)
+../src/cf_hdmi.c:217:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/cf_hdmi.c: In function 'InitHdmiVideoPcore':
+../src/cf_hdmi.c:305:13: error: 'XPAR_AXI_HDMI_CORE_BASEADDR' undeclared (first use in this function)
+../src/cf_hdmi.c:321:13: error: 'XPAR_AXI_HDMI_DMA_BASEADDR' undeclared (first use in this function)
+../src/cf_hdmi.c: In function 'InitHdmiAudioPcore':
+../src/cf_hdmi.c:358:13: error: 'XPAR_AXI_SPDIF_TX_CORE_BASEADDR' undeclared (first use in this function)
+../src/cf_hdmi.c: In function 'CLKGEN_Write':
+../src/cf_hdmi.c:481:12: error: 'XPAR_AXI_HDMI_CLKGEN_BASEADDR' undeclared (first use in this function)
+../src/cf_hdmi.c: In function 'CLKGEN_Read':
+../src/cf_hdmi.c:490:18: error: 'XPAR_AXI_HDMI_CLKGEN_BASEADDR' undeclared (first use in this function)
+../src/cf_hdmi.c: In function 'CLKGEN_MMCMWrite':
+../src/cf_hdmi.c:553:12: error: 'XPAR_AXI_HDMI_CLKGEN_BASEADDR' undeclared (first use in this function)
+make: *** [src/cf_hdmi.o] Erreur 1
+
+11:26:02 Build Finished (took 890ms)
+

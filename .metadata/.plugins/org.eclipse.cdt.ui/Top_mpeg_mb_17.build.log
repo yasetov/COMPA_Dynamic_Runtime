@@ -1,0 +1,21 @@
+10:41:49 **** Build of configuration Debug for project Top_mpeg_mb_17 ****
+make all 
+'Building file: ../src/Top_decoder_serial.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_arm\src" -c -fmessage-length=0 -I../../bsp_mb_17/MbCluster1_mb07_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Top_decoder_serial.d" -MT"src/Top_decoder_serial.d" -o "src/Top_decoder_serial.o" "../src/Top_decoder_serial.c"
+'Finished building: ../src/Top_decoder_serial.c'
+' '
+'Building target: Top_mpeg_mb_17.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\orcc" -Wl,-T -Wl,../src/lscript.ld -L../../bsp_mb_17/MbCluster1_mb07_64Kb_microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Top_mpeg_mb_17.elf"  ./src/Top_decoder_serial.o   -lorcc -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Top_mpeg_mb_17.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Top_mpeg_mb_17.elf  |tee "Top_mpeg_mb_17.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5117	    272	   2080	   7469	   1d2d	Top_mpeg_mb_17.elf
+'Finished building: Top_mpeg_mb_17.elf.size'
+' '
+
+10:41:50 Build Finished (took 1s.490ms)
+

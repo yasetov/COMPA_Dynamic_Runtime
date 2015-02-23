@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Top_arm_00/src/ctrl_fifo_definitions.h&apos; to &apos;ctrl_fifos.h&apos;" description="Rename resource &apos;ctrl_fifo_definitions.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ctrl_fifo_definitions.h" name="ctrl_fifos.h" stamp="1421943689897" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Top_arm_00/src/init_platform.c&apos; to &apos;system.c&apos;" description="Rename resource &apos;init_platform.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/init_platform.c" name="system.c" stamp="1422003790254" updateReferences="true"/>
+</session>

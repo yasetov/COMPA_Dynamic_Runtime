@@ -1,0 +1,4 @@
+#Tue Jul 08 12:27:56 CEST 2014
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=exporting Paths and Symbols

@@ -1,0 +1,27 @@
+1416217756329	Delete resource 'mpeg_libs_arm/[Source directory]/orcc/include/fifosCopyDefs.h'
+1416299662944	Delete resource 'Actors/Release'
+1416325527796	Delete resource 'Top_01/Debug'
+1416325542266	Delete resource 'Top_02/Debug'
+1416326653693	Delete resource 'Top_03/Debug'
+1416326838571	Delete resource 'Top_04/Debug'
+1416327205979	Delete resource 'Top_04/Release'
+1416501695188	Delete 3 resources
+1416501741520	Delete 2 resources
+1416502945111	Delete resource 'bsp_cluster0_mb1'
+1416503019494	Rename resource 'bsp_cluster0_mb'
+1416503364161	Delete resource 'standalone_bsp_4'
+1416503405345	Delete resource 'bsp_cluster0_mb1'
+1416503662777	Delete resource 'bsp_cluster1_mb2'
+1416503671373	Delete resource 'bsp_cluster1_mb3'
+1416503999115	Delete resource 'bsp_arm_0'
+1416576758736	Delete resource 'mpeg_libs_arm/[Source directory]/orcc/include/actorsCallerAddr.h'
+1416577996796	Delete resource 'mpeg_libs_arm/[Source directory]/orcc/include/actorsCallerAddr.h'
+1416579560418	Delete 15 resources
+1416580410762	Delete 17 resources
+1416580432580	Delete resource 'Actors/Release'
+1416580435500	Delete resource 'Actors/Debug'
+1416582941208	Delete resource 'Actors/src/01_display.c'
+1416583059288	Delete resource 'Actors/src/00_source.c'
+1416585883084	Delete resource 'Actors/src/sched_callers.c'
+1416586685901	Delete 15 resources
+1416768165480	Delete resource 'Actors/Release'

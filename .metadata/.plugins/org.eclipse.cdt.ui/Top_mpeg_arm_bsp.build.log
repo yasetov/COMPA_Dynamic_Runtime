@@ -1,0 +1,6 @@
+11:09:09 **** Clean-only build of project Top_mpeg_arm_bsp ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+
+11:09:09 Build Finished (took 140ms)
+

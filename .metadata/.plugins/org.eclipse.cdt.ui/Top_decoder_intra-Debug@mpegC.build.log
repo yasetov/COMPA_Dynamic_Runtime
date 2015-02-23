@@ -1,0 +1,6 @@
+15:56:41 **** Incremental Build of project Top_decoder_intra-Debug@mpegC ****
+"C:\\MinGW\\bin\\mingw32-make.exe" all 
+mingw32-make: *** No rule to make target 'all'.  Stop.
+
+15:56:41 Build Finished (took 130ms)
+

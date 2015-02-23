@@ -1,0 +1,7 @@
+13:49:11 **** Clean-only build of configuration Debug for project Top_11 ****
+make clean 
+rm -rf  ./src/Top_11.o  ./src/Top_11.d  Top_11.elf.size  Top_11.elf
+' '
+
+13:49:11 Build Finished (took 371ms)
+

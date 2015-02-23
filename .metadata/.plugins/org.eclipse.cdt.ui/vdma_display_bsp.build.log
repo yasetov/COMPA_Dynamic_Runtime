@@ -1,0 +1,6 @@
+15:58:05 **** Build of project vdma_display_bsp ****
+make -k all 
+'Finished building libraries'
+
+15:58:06 Build Finished (took 218ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Src_Dsply/src/decoder_parser_parseheaders.c&apos;" deleteContents="false" description="Delete resource &apos;Src_Dsply/src/decoder_parser_parseheaders.c&apos;" element1="/Src_Dsply/src/decoder_parser_parseheaders.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1404116470726"/>
+</session>

@@ -1,0 +1,17 @@
+10:45:21 **** Build of configuration Debug for project hdmi_example ****
+make all 
+'Building file: ../src/zed_hdmi_display/video_frame_buffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_example_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display/video_frame_buffer.d" -MT"src/zed_hdmi_display/video_frame_buffer.d" -o "src/zed_hdmi_display/video_frame_buffer.o" "../src/zed_hdmi_display/video_frame_buffer.c"
+In file included from ../src/zed_hdmi_display/video_frame_buffer.c:54:0:
+../src/zed_hdmi_display/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display/video_frame_buffer.c:56:22: fatal error: xaxivdma.h: No such file or directory
+ #include "xaxivdma.h"
+                      ^
+compilation terminated.
+make: *** [src/zed_hdmi_display/video_frame_buffer.o] Erreur 1
+
+10:45:22 Build Finished (took 577ms)
+

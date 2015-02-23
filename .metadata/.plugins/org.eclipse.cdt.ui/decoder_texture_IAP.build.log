@@ -1,0 +1,7 @@
+10:58:56 **** Clean-only build of configuration Release for project decoder_texture_IAP ****
+make clean 
+rm -rf  ./src/Top_decoder_texture_IAP.o ./src/decoder_texture_IAP.o  ./src/Top_decoder_texture_IAP.d ./src/decoder_texture_IAP.d  decoder_texture_IAP.elf.size  decoder_texture_IAP.elf
+' '
+
+10:58:56 Build Finished (took 280ms)
+

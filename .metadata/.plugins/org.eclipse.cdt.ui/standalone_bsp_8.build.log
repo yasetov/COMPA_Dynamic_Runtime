@@ -1,0 +1,6 @@
+16:23:53 **** Clean-only build of project standalone_bsp_8 ****
+make -k clean 
+rm -f MbCluster1_mb00_microblaze_0/lib/libxil.a
+
+16:23:54 Build Finished (took 140ms)
+

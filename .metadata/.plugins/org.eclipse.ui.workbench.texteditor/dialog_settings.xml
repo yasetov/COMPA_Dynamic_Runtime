@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="294" key="DIALOG_Y_ORIGIN"/>
+		<item value="379" key="DIALOG_HEIGHT"/>
+		<item value="981" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="detailedTimingElement" key="selection"/>
+		<list key="findhistory">
+			<item value="detailedTimingElement"/>
+			<item value="videoResolution"/>
+			<item value="execTimes"/>
+			<item value="0"/>
+			<item value="true"/>
+			<item value="MyType"/>
+			<item value="CurrMuteState"/>
+			<item value="TransmitterTxVars"/>
+		</list>
+		<list key="replacehistory">
+			<item value="1"/>
+			<item value="false"/>
+			<item value="u64"/>
+			<item value="local_mem"/>
+			<item value="0"/>
+			<item value="true"/>
+			<item value="ps7_ddr_0_S_AXI_BASEADDR"/>
+			<item value="408"/>
+		</list>
+	</section>
+</section>

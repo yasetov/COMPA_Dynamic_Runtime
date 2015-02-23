@@ -1,0 +1,17 @@
+12:14:53 **** Incremental Build of configuration Debug for project Top_mpeg_pc ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\yolivave\\work\\Xilinx_SDK_workspace\\mpeg_libs_pc\\orcc" -o Top_mpeg_pc.exe "src\\source.o" "src\\display.o" "src\\decoder_texture_idct2d.o" "src\\decoder_texture_IS.o" "src\\decoder_texture_IQ.o" "src\\decoder_texture_IAP.o" "src\\decoder_texture_DCsplit.o" "src\\decoder_texture_DCReconstruction_invpred.o" "src\\decoder_texture_DCReconstruction_addressing.o" "src\\decoder_parser_parseheaders.o" "src\\decoder_parser_mvseq.o" "src\\decoder_parser_mvrecon.o" "src\\decoder_parser_blkexp.o" "src\\decoder_motion_interpolation.o" "src\\decoder_motion_framebuf.o" "src\\decoder_motion_add.o" "src\\decoder_merger.o" "src\\Top_decoder_serial.o" -lorcc 
+src\display.o: In function `checksumPicture':
+C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_pc\Debug/../../../orcc-gen/mpeg4Visual/serial/Compa/src/src/display.c:232: undefined reference to `xil_printf'
+C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_pc\Debug/../../../orcc-gen/mpeg4Visual/serial/Compa/src/src/display.c:235: undefined reference to `xil_printf'
+src\display.o: In function `display_scheduler':
+C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_pc\Debug/../../../orcc-gen/mpeg4Visual/serial/Compa/src/src/display.c:277: undefined reference to `xil_printf'
+src\decoder_texture_IQ.o: In function `decoder_texture_IQ_scheduler':
+C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_pc\Debug/../../../orcc-gen/mpeg4Visual/serial/Compa/src/src/decoder_texture_IQ.c:268: undefined reference to `xil_printf'
+src\decoder_texture_IAP.o: In function `decoder_texture_IAP_scheduler':
+C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_pc\Debug/../../../orcc-gen/mpeg4Visual/serial/Compa/src/src/decoder_texture_IAP.c:344: undefined reference to `xil_printf'
+src\decoder_texture_DCReconstruction_invpred.o:C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_pc\Debug/../../../orcc-gen/mpeg4Visual/serial/Compa/src/src/decoder_texture_DCReconstruction_invpred.c:773: more undefined references to `xil_printf' follow
+collect2.exe: error: ld returned 1 exit status
+
+12:14:53 Build Finished (took 392ms)
+

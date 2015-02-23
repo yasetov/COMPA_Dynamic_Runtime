@@ -1,0 +1,26 @@
+13:50:32 **** Build of configuration Debug for project mailbox_polling ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../bsp_arm_00/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../bsp_arm_00/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mailbox_polling.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bsp_arm_00/ps7_cortexa9_0/lib -o "mailbox_polling.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mailbox_polling.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size mailbox_polling.elf  |tee "mailbox_polling.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62204	   2272	  29884	  94360	  17098	mailbox_polling.elf
+'Finished building: mailbox_polling.elf.size'
+' '
+
+13:50:34 Build Finished (took 1s.280ms)
+

@@ -1,0 +1,6 @@
+13:10:37 **** Incremental Build of project testSD_bsp ****
+make -k all 
+'Finished building libraries'
+
+13:10:43 Build Finished (took 6s.10ms)
+

@@ -1,0 +1,26 @@
+10:42:08 **** Build of configuration Debug for project Top_mpeg_mb_15 ****
+make all 
+'Building file: ../src/Top_decoder_serial.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_arm\src" -c -fmessage-length=0 -I../../bsp_mb_15/MbCluster1_mb05_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Top_decoder_serial.d" -MT"src/Top_decoder_serial.d" -o "src/Top_decoder_serial.o" "../src/Top_decoder_serial.c"
+'Finished building: ../src/Top_decoder_serial.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IQ.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_mpeg_arm\src" -c -fmessage-length=0 -I../../bsp_mb_15/MbCluster1_mb05_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_texture_IQ.d" -MT"src/decoder_texture_IQ.d" -o "src/decoder_texture_IQ.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IQ.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IQ.c'
+' '
+'Building target: Top_mpeg_mb_15.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\orcc" -Wl,-T -Wl,../src/lscript.ld -L../../bsp_mb_15/MbCluster1_mb05_64Kb_microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Top_mpeg_mb_15.elf"  ./src/Top_decoder_serial.o ./src/decoder_texture_IQ.o   -lorcc -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Top_mpeg_mb_15.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Top_mpeg_mb_15.elf  |tee "Top_mpeg_mb_15.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8149	    376	   2120	  10645	   2995	Top_mpeg_mb_15.elf
+'Finished building: Top_mpeg_mb_15.elf.size'
+' '
+
+10:42:10 Build Finished (took 1s.620ms)
+

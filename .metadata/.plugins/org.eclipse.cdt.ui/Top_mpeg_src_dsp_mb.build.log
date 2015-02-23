@@ -1,0 +1,7 @@
+11:41:22 **** Clean-only build of configuration Debug for project Top_mpeg_src_dsp_mb ****
+make clean 
+rm -rf  ./src/Top_decoder_serial.o ./src/display.o ./src/display_MB.o ./src/source.o ./src/source_MB.o  ./src/Top_decoder_serial.d ./src/display.d ./src/display_MB.d ./src/source.d ./src/source_MB.d  Top_mpeg_src_dsp_mb.elf.size  Top_mpeg_src_dsp_mb.elf
+' '
+
+11:41:22 Build Finished (took 230ms)
+

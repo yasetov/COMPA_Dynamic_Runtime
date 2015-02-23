@@ -1,0 +1,43 @@
+/*
+ * fsMngr.h
+ *
+ *  Created on: 5 juin 2014
+ *      Author: yolivave
+ */
+
+#ifndef FSMNGR_H_
+#define FSMNGR_H_
+
+#include "ff.h"
+
+static FATFS fatfs;
+
+FRESULT rc = FR_OK;
+FIL fil;
+
+void initSD(){
+	FRESULT rc = FR_OK;
+
+//	Xil_DCacheDisable();
+//	Xil_ICacheDisable();
+
+	/* Register volume work area, initialize device */
+	rc = f_mount(0, &fatfs);
+	if (rc != FR_OK) {
+		xil_printf("SD_INIT_FAIL: %d\n", rc);
+		return;
+	}
+
+//	Xil_DCacheEnable();
+//	Xil_ICacheEnable();
+}
+
+void openBitstreamFile(){
+	rc = f_open(&fil_RUN, traces_RUN, FA_READ);
+	if (rc != FR_OK) {
+		xil_printf("f_open failed: %d\n", rc);
+		exit(-1);
+	}
+}
+
+#endif /* FSMNGR_H_ */

@@ -1,0 +1,31 @@
+18:38:24 **** Build of configuration Debug for project exampleHDMI ****
+make all 
+'Building file: ../src/cf_hdmi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\inc" -c -fmessage-length=0 -I../../HDMI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cf_hdmi.d" -MT"src/cf_hdmi.d" -o "src/cf_hdmi.o" "../src/cf_hdmi.c"
+'Finished building: ../src/cf_hdmi.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\inc" -c -fmessage-length=0 -I../../HDMI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/transmitter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\inc" -c -fmessage-length=0 -I../../HDMI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transmitter.d" -MT"src/transmitter.d" -o "src/transmitter.o" "../src/transmitter.c"
+'Finished building: ../src/transmitter.c'
+' '
+'Building target: exampleHDMI.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -L"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\lib" -Wl,-T -Wl,../src/lscript.ld -L../../HDMI_bsp/ps7_cortexa9_0/lib -o "exampleHDMI.elf"  ./src/cf_hdmi.o ./src/main.o ./src/transmitter.o   -lHDMI_ZynqLib -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: exampleHDMI.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size exampleHDMI.elf  |tee "exampleHDMI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 104613	 704528	   9164	 818305	  c7c81	exampleHDMI.elf
+'Finished building: exampleHDMI.elf.size'
+' '
+
+18:38:27 Build Finished (took 3s.151ms)
+

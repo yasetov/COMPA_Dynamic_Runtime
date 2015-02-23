@@ -1,0 +1,11 @@
+14:04:56 **** Build of configuration Debug for project display ****
+make all 
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/display/display.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../display_bsp/mb0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display.d" -MT"src/display.d" -o "src/display.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/display/display.c"
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/display/display.c:6:29: fatal error: fifoAllocations.h: No such file or directory
+compilation terminated.
+make: *** [src/display.o] Erreur 1
+
+14:04:57 Build Finished (took 329ms)
+

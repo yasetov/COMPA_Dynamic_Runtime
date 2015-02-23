@@ -1,0 +1,315 @@
+// Generated from "fr.irisa.mpeg4.part2.sp.Top_decoder_serial"
+
+#include <locale.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+#ifndef _WIN32
+#define __USE_GNU
+#endif
+
+//#include "xil_cache.h"
+#include "xtmrctr.h"
+#include "xparameters.h"
+#include "util.h"
+
+#include "fifoAllocations.h"
+#include "ctrl_fifos.h"
+//#include "source_MB.h"
+#include "display_MB.h"
+
+//--- Macros --------//
+#define USE_ACTORS_LIB		0	// Whether use the library which contains all the actors' code. I.e all actors executed by one processor.
+#define PRINT_FIFO_INDEX 	0	// Whether to print the indices of Fifos at break.
+#define NB_FIFOS			32	// Total of Fifos in the application.
+#define TIMER_CNTR_0		0	// Timer index used in the timer IP.
+#define USE_TIMER			0
+#define XIL_PRINTF			0
+
+
+#define CTRL_FIFO_IN_0_SIZE 		250344 // 0x3D1E8 Size of the encoded input file.
+#define CTRL_FIFO_IN_0_START_ADDR	0x80000000
+#define CTRL_FIFO_IN_0_RD_IX_ADDR	CTRL_FIFO_IN_0_START_ADDR + CTRL_FIFO_IN_0_SIZE
+#define CTRL_FIFO_IN_0_WR_IX_ADDR	CTRL_FIFO_IN_0_RD_IX_ADDR + 4
+
+#define CTRL_FIFO_OUT_0_SIZE		IMG_LENGTH // 0x9480 = 38016 bytes
+#define CTRL_FIFO_OUT_0_START_ADDR	0x80040000
+#define CTRL_FIFO_OUT_0_RD_IX_ADDR	CTRL_FIFO_OUT_0_START_ADDR + CTRL_FIFO_OUT_0_SIZE
+#define CTRL_FIFO_OUT_0_WR_IX_ADDR	CTRL_FIFO_OUT_0_RD_IX_ADDR + 4
+
+#define END_FLAG_SIZE				1 // Bytes written to indicate the end of decoding.
+
+//---Local variables -------//
+static XTmrCtr TmrCtrInstance;							// Timer driver instance.
+static XTmrCtr* TmrCtrInstancePtr = &TmrCtrInstance;
+static int stop = 0;
+//------//
+
+//---- External declarations -----//
+extern u32 frameCtr;				// At Display.c, counts the decoded frames.
+
+//--- Global variables ---//
+u8* bytesRead;
+u8* IMG_DATA;
+u8* dec_img_data;
+
+//--- Control FIFOs ---//
+ctrl_fifo_hdlr ctrl_fifo_input;
+ctrl_fifo_hdlr ctrl_fifo_output;
+
+/////////////////////////////////////////////////
+// Action initializes
+extern void source_initialize();
+extern void display_initialize();
+
+
+///////////////////////////////////////////////////
+// Action schedulers
+extern int source_scheduler();
+extern int display_scheduler();
+
+#if USE_ACTORS_LIB == 1
+	/////////////////////////////////////////////////
+	// Action initializes
+	extern int decoder_merger_initialize();
+	extern int decoder_parser_parseheaders_initialize();
+	extern int decoder_parser_mvseq_initialize();
+	extern int decoder_parser_blkexp_initialize();
+	extern int decoder_parser_mvrecon_initialize();
+	extern int decoder_texture_DCsplit_initialize();
+	extern int decoder_texture_IS_initialize();
+	extern int decoder_texture_IAP_initialize();
+	extern int decoder_texture_IQ_initialize();
+	extern int decoder_texture_idct2d_initialize();
+	extern int decoder_texture_DCReconstruction_addressing_initialize();
+	extern int decoder_texture_DCReconstruction_invpred_initialize();
+	extern int decoder_motion_interpolation_initialize();
+	extern int decoder_motion_add_initialize();
+	extern int decoder_motion_framebuf_initialize();
+
+	/////////////////////////////////////////////////
+	// Action schedulers
+	extern int decoder_merger_scheduler();
+	extern int decoder_parser_parseheaders_scheduler();
+	extern int decoder_parser_mvseq_scheduler();
+	extern int decoder_parser_blkexp_scheduler();
+	extern int decoder_parser_mvrecon_scheduler();
+	extern int decoder_texture_DCsplit_scheduler();
+	extern int decoder_texture_IS_scheduler();
+	extern int decoder_texture_IAP_scheduler();
+	extern int decoder_texture_IQ_scheduler();
+	extern int decoder_texture_idct2d_scheduler();
+	extern int decoder_texture_DCReconstruction_addressing_scheduler();
+	extern int decoder_texture_DCReconstruction_invpred_scheduler();
+	extern int decoder_motion_interpolation_scheduler();
+	extern int decoder_motion_add_scheduler();
+	extern int decoder_motion_framebuf_scheduler();
+#endif
+
+void readData(){
+	do {
+		rd_ctrl_fifo(&ctrl_fifo_input);
+	} while ((ctrl_fifo_input.ctrl_fifo_num_tkn - ctrl_fifo_input.ctrl_fifo_rd_ix)<=0);
+
+	bytesRead = ctrl_fifo_input.fifo.contents;
+	IMG_DATA = ctrl_fifo_input.fifo.contents;
+	ctrl_fifo_input.ctrl_fifo_rd_ix += ctrl_fifo_input.ctrl_fifo_wr_ix;
+}
+
+#if PRINT_FIFO_INDEX == 1
+void printFifo(fifo_u8_t* fifo, int index){
+	int i;
+	if(fifo->readers_nb > 1){
+		xil_printf("fifo_%d: %d", index, *fifo->write_ind);
+		for (i = 0; i < fifo->readers_nb; i++) {
+			xil_printf(" %d", fifo->read_inds[i]);
+		}
+		xil_printf("\n");
+	}
+	else{
+		xil_printf("fifo_%d: %d %d\n", index, *fifo->write_ind, fifo->read_inds[0]);
+	}
+}
+
+void printFifoIndices(){
+	printFifo(&fifo_0, 0);
+	printFifo(&fifo_1, 1);
+	printFifo(&fifo_2, 2);
+	printFifo(&fifo_3, 3);
+	printFifo(&fifo_4, 4);
+	printFifo(&fifo_5, 5);
+	printFifo(&fifo_6, 6);
+	printFifo(&fifo_7, 7);
+	printFifo(&fifo_8, 8);
+	printFifo(&fifo_9, 9);
+	printFifo(&fifo_10, 10);
+	printFifo(&fifo_11, 11);
+	printFifo(&fifo_12, 12);
+	printFifo(&fifo_13, 13);
+	printFifo(&fifo_14, 14);
+	printFifo(&fifo_15, 15);
+	printFifo(&fifo_16, 16);
+	printFifo(&fifo_17, 17);
+	printFifo(&fifo_18, 18);
+	printFifo(&fifo_19, 19);
+	printFifo(&fifo_20, 20);
+	printFifo(&fifo_21, 21);
+	printFifo(&fifo_22, 22);
+	printFifo(&fifo_23, 23);
+	printFifo(&fifo_24, 24);
+	printFifo(&fifo_25, 25);
+	printFifo(&fifo_26, 26);
+	printFifo(&fifo_27, 27);
+	printFifo(&fifo_28, 28);
+	printFifo(&fifo_29, 29);
+	printFifo(&fifo_30, 30);
+	printFifo(&fifo_31, 31);
+}
+#endif
+
+/////////////////////////////////////////////////
+// Actor scheduler
+static void scheduler() {
+	source_initialize();
+	display_initialize();
+#if USE_ACTORS_LIB == 1
+	decoder_merger_initialize();
+	decoder_parser_parseheaders_initialize();
+	decoder_parser_mvseq_initialize();
+	decoder_parser_blkexp_initialize();
+	decoder_parser_mvrecon_initialize();
+	decoder_texture_DCsplit_initialize();
+	decoder_texture_IS_initialize();
+	decoder_texture_IAP_initialize();
+	decoder_texture_IQ_initialize();
+	decoder_texture_idct2d_initialize();
+	decoder_texture_DCReconstruction_addressing_initialize();
+	decoder_texture_DCReconstruction_invpred_initialize();
+	decoder_motion_interpolation_initialize();
+	decoder_motion_add_initialize();
+	decoder_motion_framebuf_initialize();
+#endif
+
+	int i;
+	stop = 0;
+	while(1) {
+
+		i = 0;
+		i += source_scheduler();
+		i += display_scheduler();
+#if USE_ACTORS_LIB == 1
+		i += decoder_merger_scheduler();
+		i += decoder_parser_parseheaders_scheduler();
+		i += decoder_parser_mvseq_scheduler();
+		i += decoder_parser_blkexp_scheduler();
+		i += decoder_parser_mvrecon_scheduler();
+		i += decoder_texture_DCsplit_scheduler();
+		i += decoder_texture_IS_scheduler();
+		i += decoder_texture_IAP_scheduler();
+		i += decoder_texture_IQ_scheduler();
+		i += decoder_texture_idct2d_scheduler();
+		i += decoder_texture_DCReconstruction_addressing_scheduler();
+		i += decoder_texture_DCReconstruction_invpred_scheduler();
+		i += decoder_motion_interpolation_scheduler();
+		i += decoder_motion_add_scheduler();
+		i += decoder_motion_framebuf_scheduler();
+#endif
+		if(i==0)
+			stop++;
+//		if((frameCtr >= 24) || (stop > 10000)){
+////			while(END_FLAG_SIZE > ctrl_fifo_output.fifo.size - ctrl_fifo_output.fifo.write_ind[0] + ctrl_fifo_output.fifo.read_inds[0]);
+////			ctrl_fifo_output.fifo.write_ind[0] += END_FLAG_SIZE;
+//			break;
+//		}
+//		if(frameCtr >= 24) break;
+//		if (stop > 10000){
+//			while(END_FLAG_SIZE > ctrl_fifo_output.fifo.size - ctrl_fifo_output.fifo.write_ind[0] + ctrl_fifo_output.fifo.read_inds[0]);
+//			ctrl_fifo_output.fifo.write_ind[0] += END_FLAG_SIZE;
+//		}
+	}
+}
+
+int InitTmrCtr()
+{
+	int Status;
+
+	/*
+	 * Initialize the TmrCtr driver
+	 */
+	Status = XTmrCtr_Initialize(TmrCtrInstancePtr, XPAR_AXI_TIMER_0_DEVICE_ID);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	/*
+	 * Perform a self-test to ensure that the hardware was built
+	 * correctly, use the 1st timer in the device (0)
+	 */
+	Status = XTmrCtr_SelfTest(TmrCtrInstancePtr, TIMER_CNTR_0);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	return XST_SUCCESS;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Main
+int main(int argc, char *argv[]) {
+	int Status;
+	u32 clocks;
+
+	microblaze_disable_dcache();
+
+#if USE_TIMER == 1
+	// Initializing timer.
+	Status = InitTmrCtr();
+	if (Status != XST_SUCCESS) {
+#if XIL_PRINTF == 1
+		xil_printf("Timer initialization failed.\r\n");
+#endif
+		return XST_FAILURE;
+	}
+#endif
+
+	// Initializing control FIFOs.
+	init_ctrl_fifo_hdlr(&ctrl_fifo_input, CTRL_FIFO_IN_0_START_ADDR, CTRL_FIFO_IN_0_RD_IX_ADDR, CTRL_FIFO_IN_0_WR_IX_ADDR, CTRL_FIFO_IN_0_SIZE);
+	init_ctrl_fifo_hdlr(&ctrl_fifo_output, CTRL_FIFO_OUT_0_START_ADDR, CTRL_FIFO_OUT_0_RD_IX_ADDR, CTRL_FIFO_OUT_0_WR_IX_ADDR, CTRL_FIFO_OUT_0_SIZE);
+
+
+	while(1){
+		// Reading input data.
+		readData();
+		updt_rd_ix(&ctrl_fifo_input); // Update read index.
+#if XIL_PRINTF == 1
+		xil_printf("%d bytes read of input data\r\n", ctrl_fifo_input.ctrl_fifo_rd_ix % (ctrl_fifo_input.fifo.size + 1));
+#endif
+
+#if USE_TIMER == 1
+		// Start timer.
+		XTmrCtr_Start(TmrCtrInstancePtr, TIMER_CNTR_0);
+#endif
+
+		// Actors schedule.
+		scheduler();
+
+#if USE_TIMER == 1
+		// Read timer
+		clocks = XTmrCtr_GetValue(TmrCtrInstancePtr, TIMER_CNTR_0);
+#endif
+
+#if XIL_PRINTF == 1 && USE_TIMER == 1
+		xil_printf("%d iterations, %d frames\n", stop, frameCtr);
+		xil_printf("%d timer clocks at 100MHz\n", clocks);
+#endif
+
+#if PRINT_FIFO_INDEX == 1
+		printFifoIndices();
+#endif
+		// Clear FIFO
+		clear_rd_ix(&ctrl_fifo_input);
+
+		frameCtr = 0;
+	}
+	return 0;
+}

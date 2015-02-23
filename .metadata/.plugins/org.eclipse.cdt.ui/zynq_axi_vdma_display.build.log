@@ -1,0 +1,13 @@
+09:29:14 **** Build of configuration Debug for project zynq_axi_vdma_display ****
+make all 
+'Building file: ../src/zc702_i2c_utils.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/zc702_i2c_utils.d" -MT"src/zc702_i2c_utils.d" -o "src/zc702_i2c_utils.o" "../src/zc702_i2c_utils.c"
+../src/zc702_i2c_utils.c:19:25: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+                         ^
+compilation terminated.
+make: *** [src/zc702_i2c_utils.o] Erreur 1
+
+09:29:14 Build Finished (took 490ms)
+

@@ -1,0 +1,34 @@
+23:30:41 **** Incremental Build of configuration Debug for project source_MB ****
+make all 
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../mb00_source_bsp/microblaze_0/include -mlittle-endian -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/source.d" -MT"src/source.d" -o "src/source.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c'
+' '
+'Building target: source_MB.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\orcc" -Wl,-T -Wl,../src/lscript.ld -L../../mb00_source_bsp/microblaze_0/lib -mlittle-endian -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "source_MB.elf"  ./src/helloworld.o ./src/platform.o ./src/source.o   -lorcc -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: source_MB.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size source_MB.elf  |tee "source_MB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  43772	   1336	   2172	  47280	   b8b0	source_MB.elf
+'Finished building: source_MB.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck source_MB.elf -hw ../../cf_adv7511_zc706_hw_platform/system.xml -pe microblaze_0  |tee "source_MB.elf.elfcheck"
+elfcheck
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../cf_adv7511_zc706_hw_platform/system.xml -pe
+microblaze_0 source_MB.elf 
+
+ELF file	: source_MB.elf
+elfcheck passed.
+'Finished building: source_MB.elf.elfcheck'
+' '
+
+23:30:43 Build Finished (took 2s.465ms)
+

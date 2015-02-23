@@ -1,0 +1,96 @@
+22:14:13 **** Build of configuration Release for project Top_mpeg_mb_05 ****
+make all 
+'Building file: ../src/Top_decoder_serial.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Top_decoder_serial.d" -MT"src/Top_decoder_serial.d" -o "src/Top_decoder_serial.o" "../src/Top_decoder_serial.c"
+'Finished building: ../src/Top_decoder_serial.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_merger.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_merger.d" -MT"src/decoder_merger.d" -o "src/decoder_merger.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_merger.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_merger.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_motion_add.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_motion_add.d" -MT"src/decoder_motion_add.d" -o "src/decoder_motion_add.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_motion_add.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_motion_add.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_motion_framebuf.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_motion_framebuf.d" -MT"src/decoder_motion_framebuf.d" -o "src/decoder_motion_framebuf.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_motion_framebuf.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_motion_framebuf.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_motion_interpolation.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_motion_interpolation.d" -MT"src/decoder_motion_interpolation.d" -o "src/decoder_motion_interpolation.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_motion_interpolation.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_motion_interpolation.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_blkexp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_parser_blkexp.d" -MT"src/decoder_parser_blkexp.d" -o "src/decoder_parser_blkexp.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_blkexp.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_blkexp.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvrecon.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_parser_mvrecon.d" -MT"src/decoder_parser_mvrecon.d" -o "src/decoder_parser_mvrecon.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvrecon.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvrecon.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvseq.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_parser_mvseq.d" -MT"src/decoder_parser_mvseq.d" -o "src/decoder_parser_mvseq.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvseq.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_mvseq.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_parseheaders.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_parser_parseheaders.d" -MT"src/decoder_parser_parseheaders.d" -o "src/decoder_parser_parseheaders.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_parseheaders.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_parseheaders.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_DCReconstruction_addressing.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_texture_DCReconstruction_addressing.d" -MT"src/decoder_texture_DCReconstruction_addressing.d" -o "src/decoder_texture_DCReconstruction_addressing.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_DCReconstruction_addressing.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_DCReconstruction_addressing.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_DCReconstruction_invpred.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_texture_DCReconstruction_invpred.d" -MT"src/decoder_texture_DCReconstruction_invpred.d" -o "src/decoder_texture_DCReconstruction_invpred.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_DCReconstruction_invpred.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_DCReconstruction_invpred.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_DCsplit.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_texture_DCsplit.d" -MT"src/decoder_texture_DCsplit.d" -o "src/decoder_texture_DCsplit.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_DCsplit.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_DCsplit.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IAP.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_texture_IAP.d" -MT"src/decoder_texture_IAP.d" -o "src/decoder_texture_IAP.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IAP.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IAP.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IQ.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_texture_IQ.d" -MT"src/decoder_texture_IQ.d" -o "src/decoder_texture_IQ.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IQ.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IQ.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IS.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_texture_IS.d" -MT"src/decoder_texture_IS.d" -o "src/decoder_texture_IS.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IS.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_IS.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_idct2d.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_05_ddr/cluster_0_microblaze_5/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_texture_idct2d.d" -MT"src/decoder_texture_idct2d.d" -o "src/decoder_texture_idct2d.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_idct2d.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_texture_idct2d.c'
+' '
+'Building target: Top_mpeg_mb_05.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bsp_mb_05_ddr/cluster_0_microblaze_5/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Top_mpeg_mb_05.elf"  ./src/Top_decoder_serial.o ./src/decoder_merger.o ./src/decoder_motion_add.o ./src/decoder_motion_framebuf.o ./src/decoder_motion_interpolation.o ./src/decoder_parser_blkexp.o ./src/decoder_parser_mvrecon.o ./src/decoder_parser_mvseq.o ./src/decoder_parser_parseheaders.o ./src/decoder_texture_DCReconstruction_addressing.o ./src/decoder_texture_DCReconstruction_invpred.o ./src/decoder_texture_DCsplit.o ./src/decoder_texture_IAP.o ./src/decoder_texture_IQ.o ./src/decoder_texture_IS.o ./src/decoder_texture_idct2d.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Top_mpeg_mb_05.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Top_mpeg_mb_05.elf  |tee "Top_mpeg_mb_05.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3056	    340	   2108	   5504	   1580	Top_mpeg_mb_05.elf
+'Finished building: Top_mpeg_mb_05.elf.size'
+' '
+
+22:14:18 Build Finished (took 5s.397ms)
+

@@ -1,0 +1,97 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/Top_00.c \
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_merger.c \
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_parser_blkexp.c \
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_parser_mvrecon.c \
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_parser_mvseq.c \
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_texture_DCsplit.c \
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_texture_IAP.c \
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_texture_IS.c 
+
+LD_SRCS += \
+../src/lscript.ld 
+
+OBJS += \
+./src/Top_00.o \
+./src/decoder_merger.o \
+./src/decoder_parser_blkexp.o \
+./src/decoder_parser_mvrecon.o \
+./src/decoder_parser_mvseq.o \
+./src/decoder_texture_DCsplit.o \
+./src/decoder_texture_IAP.o \
+./src/decoder_texture_IS.o 
+
+C_DEPS += \
+./src/Top_00.d \
+./src/decoder_merger.d \
+./src/decoder_parser_blkexp.d \
+./src/decoder_parser_mvrecon.d \
+./src/decoder_parser_mvseq.d \
+./src/decoder_texture_DCsplit.d \
+./src/decoder_texture_IAP.d \
+./src/decoder_texture_IS.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/Top_00.o: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/Top_00.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MicroBlaze gcc compiler'
+	mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_12_128Kb/MbCluster1_mb02_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/decoder_merger.o: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_merger.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MicroBlaze gcc compiler'
+	mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_12_128Kb/MbCluster1_mb02_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/decoder_parser_blkexp.o: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_parser_blkexp.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MicroBlaze gcc compiler'
+	mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_12_128Kb/MbCluster1_mb02_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/decoder_parser_mvrecon.o: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_parser_mvrecon.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MicroBlaze gcc compiler'
+	mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_12_128Kb/MbCluster1_mb02_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/decoder_parser_mvseq.o: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_parser_mvseq.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MicroBlaze gcc compiler'
+	mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_12_128Kb/MbCluster1_mb02_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/decoder_texture_DCsplit.o: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_texture_DCsplit.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MicroBlaze gcc compiler'
+	mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_12_128Kb/MbCluster1_mb02_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/decoder_texture_IAP.o: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_texture_IAP.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MicroBlaze gcc compiler'
+	mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_12_128Kb/MbCluster1_mb02_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/decoder_texture_IS.o: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_00/decoder_texture_IS.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MicroBlaze gcc compiler'
+	mb-gcc -Wall -w -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_12_128Kb/MbCluster1_mb02_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

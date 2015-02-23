@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Top_arm_00/src/mapping.h&apos; to &apos;mappings.h&apos;" description="Rename resource &apos;mapping.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/mapping.h" name="mappings.h" stamp="1416832035967" updateReferences="true"/>
+</session>

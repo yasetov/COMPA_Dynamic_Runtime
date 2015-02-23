@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mpeg_libs_arm/[Source directory]/orcc/include/schedCallerAddr.h&apos; to &apos;actors.h&apos;" description="Rename resource &apos;schedCallerAddr.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="[Source directory]/orcc/include/schedCallerAddr.h" name="actors.h" stamp="1422002472916" updateReferences="true"/>
+</session>

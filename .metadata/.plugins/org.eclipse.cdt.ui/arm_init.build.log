@@ -1,0 +1,7 @@
+11:09:10 **** Clean-only build of configuration Debug for project arm_init ****
+make clean 
+rm -rf  ./src/init.o ./src/platform.o  ./src/init.d ./src/platform.d  arm_init.elf.size  arm_init.elf
+' '
+
+11:09:10 Build Finished (took 270ms)
+

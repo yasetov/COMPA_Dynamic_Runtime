@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Top_mpeg_hdmi_mb_lm_cache/src/top_src_dsply.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;top_src_dsply.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/top_src_dsply.c" name="main.c" stamp="1413538631950" updateReferences="true"/>
+</session>

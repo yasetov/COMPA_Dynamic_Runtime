@@ -1,0 +1,21 @@
+15:25:55 **** Incremental Build of configuration Debug for project test_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_1/MbCluster1_mb01_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_1/MbCluster1_mb01_microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_1.elf"  ./src/helloworld.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1956	    268	   2088	   4312	   10d8	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+
+15:25:56 Build Finished (took 1s.126ms)
+

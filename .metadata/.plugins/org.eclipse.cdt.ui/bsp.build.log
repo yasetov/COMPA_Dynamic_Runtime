@@ -1,0 +1,84 @@
+17:12:27 **** Build of project bsp ****
+make -k all 
+libgen -hw ../hw/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw/system.xml -pe ps7_cortexa9_0 -log libgen.log
+system.mss 
+
+WARNING:EDK - iic -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 33 - deprecated driver!
+WARNING:EDK - axivdma -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 45 - deprecated driver!
+WARNING:EDK - devcfg -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 87 - deprecated driver!
+WARNING:EDK - dmaps -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 93 - deprecated driver!
+WARNING:EDK - dmaps -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 99 - deprecated driver!
+WARNING:EDK - emacps -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 105 - deprecated driver!
+WARNING:EDK - gpiops -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 111 - deprecated driver!
+WARNING:EDK - qspips -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 123 - deprecated driver!
+WARNING:EDK - scugic -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 147 - deprecated driver!
+WARNING:EDK - uartps -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 177 - deprecated driver!
+WARNING:EDK - usbps -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 183 - deprecated driver!
+WARNING:EDK - standalone -
+   C:\Users\yolivave\Downloads\fpgahdl_xilinx-master\cf_adv7511_zc706\SDK\SDK_Wo
+   rkspace\bsp\system.mss line 5 - deprecated os!
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling xadc"
+"Compiling standalone"
+"Compiling iic"
+"Compiling axivdma"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling emacps"
+"Compiling gpiops"
+"Compiling qspips"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling usbps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+
+17:13:04 Build Finished (took 36s.113ms)
+

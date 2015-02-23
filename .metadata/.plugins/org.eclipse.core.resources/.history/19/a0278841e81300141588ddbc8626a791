@@ -1,0 +1,119 @@
+// Generated from "fr.irisa.mpeg4.part2.sp.Top_decoder_serial"
+
+#include <locale.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+#ifndef _WIN32
+#define __USE_GNU
+#endif
+
+#include "fifoAllocations.h"
+#include "util.h"
+
+#include <string.h>
+
+#include "xil_cache.h"
+
+/////////////////////////////////////////////////
+// Action initializes
+extern void source_initialize();
+extern void display_initialize();
+extern void decoder_merger_initialize();
+extern void decoder_parser_parseheaders_initialize();
+extern void decoder_parser_mvseq_initialize();
+extern void decoder_parser_blkexp_initialize();
+extern void decoder_parser_mvrecon_initialize();
+extern void decoder_texture_DCsplit_initialize();
+extern void decoder_texture_IS_initialize();
+extern void decoder_texture_IAP_initialize();
+extern void decoder_texture_IQ_initialize();
+extern void decoder_texture_idct2d_initialize();
+extern void decoder_texture_DCReconstruction_addressing_initialize();
+extern void decoder_texture_DCReconstruction_invpred_initialize();
+extern void decoder_motion_interpolation_initialize();
+extern void decoder_motion_add_initialize();
+extern void decoder_motion_framebuf_initialize();
+
+/////////////////////////////////////////////////
+// Action schedulers
+extern int source_scheduler();
+extern int display_scheduler();
+extern int decoder_merger_scheduler();
+extern int decoder_parser_parseheaders_scheduler();
+extern int decoder_parser_mvseq_scheduler();
+extern int decoder_parser_blkexp_scheduler();
+extern int decoder_parser_mvrecon_scheduler();
+extern int decoder_texture_DCsplit_scheduler();
+extern int decoder_texture_IS_scheduler();
+extern int decoder_texture_IAP_scheduler();
+extern int decoder_texture_IQ_scheduler();
+extern int decoder_texture_idct2d_scheduler();
+extern int decoder_texture_DCReconstruction_addressing_scheduler();
+extern int decoder_texture_DCReconstruction_invpred_scheduler();
+extern int decoder_motion_interpolation_scheduler();
+extern int decoder_motion_add_scheduler();
+extern int decoder_motion_framebuf_scheduler();
+
+/////////////////////////////////////////////////
+// Actor scheduler
+static void scheduler() {
+	int stop = 0;
+
+//	source_initialize();
+//	display_initialize();
+	decoder_merger_initialize();
+//	decoder_parser_parseheaders_initialize();
+//	decoder_parser_mvseq_initialize();
+//	decoder_parser_blkexp_initialize();
+//	decoder_parser_mvrecon_initialize();
+//	decoder_texture_DCsplit_initialize();
+//	decoder_texture_IS_initialize();
+//	decoder_texture_IAP_initialize();
+//	decoder_texture_IQ_initialize();
+//	decoder_texture_idct2d_initialize();
+//	decoder_texture_DCReconstruction_addressing_initialize();
+//	decoder_texture_DCReconstruction_invpred_initialize();
+//	decoder_motion_interpolation_initialize();
+//	decoder_motion_add_initialize();
+//	decoder_motion_framebuf_initialize();
+
+	int i;
+	while(1) {
+		i = 0;
+//		i += source_scheduler();
+//		i += display_scheduler();
+//		i += decoder_merger_scheduler();
+//		i += decoder_parser_parseheaders_scheduler();
+//		i += decoder_parser_mvseq_scheduler();
+//		i += decoder_parser_blkexp_scheduler();
+//		i += decoder_parser_mvrecon_scheduler();
+//		i += decoder_texture_DCsplit_scheduler();
+//		i += decoder_texture_IS_scheduler();
+//		i += decoder_texture_IAP_scheduler();
+//		i += decoder_texture_IQ_scheduler();
+//		i += decoder_texture_idct2d_scheduler();
+//		i += decoder_texture_DCReconstruction_addressing_scheduler();
+//		i += decoder_texture_DCReconstruction_invpred_scheduler();
+//		i += decoder_motion_interpolation_scheduler();
+//		i += decoder_motion_add_scheduler();
+//		i += decoder_motion_framebuf_scheduler();
+
+		stop = stop || (i == 0);
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Main
+int main(int argc, char *argv[]) {
+
+	Xil_ICacheEnable();
+	Xil_DCacheEnable();
+
+	memset((void*)0x80000000, 0, (size_t)0x7918);
+
+	scheduler();
+
+	printf("End of simulation !\n");
+//	return compareErrors;
+}

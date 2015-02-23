@@ -1,0 +1,7 @@
+10:58:51 **** Clean-only build of configuration Release for project decoder_parser_mvrecon ****
+make clean 
+rm -rf  ./src/Top_decoder_parser_mvrecon.o ./src/decoder_parser_mvrecon.o  ./src/Top_decoder_parser_mvrecon.d ./src/decoder_parser_mvrecon.d  decoder_parser_mvrecon.elf.size  decoder_parser_mvrecon.elf
+' '
+
+10:58:52 Build Finished (took 380ms)
+

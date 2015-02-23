@@ -1,0 +1,234 @@
+The target system is: Generic - 9.2 - 
+The host system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Xilinx/SDK/2013.4/gnu/arm/nt/bin/arm-xilinx-eabi-gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008018
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Xilinx/SDK/2013.4/gnu/arm/nt/bin/arm-xilinx-eabi-g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008018
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec2095974334/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2095974334.dir\build.make CMakeFiles/cmTryCompileExec2095974334.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_arm\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2095974334.dir/testCCompiler.c.obj
+C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-gcc.exe    -o CMakeFiles\cmTryCompileExec2095974334.dir\testCCompiler.c.obj   -c C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_arm\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTryCompileExec2095974334
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2095974334.dir\link.txt --verbose=1
+C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-gcc.exe       CMakeFiles/cmTryCompileExec2095974334.dir/testCCompiler.c.obj  -o cmTryCompileExec2095974334  
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008018
+mingw32-make.exe[1]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec3239451430/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3239451430.dir\build.make CMakeFiles/cmTryCompileExec3239451430.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_arm\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3239451430.dir/CMakeCCompilerABI.c.obj
+C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-gcc.exe    -o CMakeFiles\cmTryCompileExec3239451430.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec3239451430
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec3239451430.dir\link.txt --verbose=1
+C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-gcc.exe     -v CMakeFiles/cmTryCompileExec3239451430.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec3239451430   
+Using built-in specs.
+COLLECT_GCC=C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-gcc.exe
+COLLECT_LTO_WRAPPER=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/lto-wrapper.exe
+Target: arm-xilinx-eabi
+Configured with: /scratch/janisjo/build6/2013.05-xilinx-eabi-release/src/gcc-4.7-2013.05/configure --build=i686-pc-linux-gnu --host=i686-mingw32 --target=arm-xilinx-eabi --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv7-a --with-cpu=cortex-a9 --with-float=softfp --with-fpu=neon-fp16 --disable-multilib --with-gnu-as --with-gnu-ld --with-specs='%{save-temps: -fverbose-asm} -D__CS_SOURCERYGXX_MAJ__=2013 -D__CS_SOURCERYGXX_MIN__=5 -D__CS_SOURCERYGXX_REV__=39 %{O2:%{!fno-remove-local-statics: -fremove-local-statics}} %{O*:%{O|O0|O1|O2|Os:;:%{!fno-remove-local-statics: -fremove-local-statics}}}' --enable-languages=c,c++ --disable-shared --enable-lto --with-newlib --with-pkgversion='Sourcery CodeBench Lite 2013.05-39' --with-bugurl=https://sourcery.mentor.com/GNUToolchain/ --disable-nls --prefix=/opt/codesourcery --with-headers=yes --with-sysroot=/opt/codesourcery/arm-xilinx-eabi --with-build-sysroot=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/install/host-i686-mingw32/arm-xilinx-eabi --with-libiconv-prefix=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-gmp=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-mpfr=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-mpc=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-ppl=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-cloog=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-libelf=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --disable-libgomp --disable-libitm --enable-poison-system-directories --with-build-time-tools=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/tools-i686-pc-linux-gnu-2013.05-39-arm-xilinx-eabi-i686-mingw32/arm-xilinx-eabi/bin --with-build-time-tools=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/tools-i686-pc-linux-gnu-2013.05-39-arm-xilinx-eabi-i686-mingw32/arm-xilinx-eabi/bin SED=sed
+Thread model: single
+gcc version 4.7.3 (Sourcery CodeBench Lite 2013.05-39) 
+COMPILER_PATH=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3239451430' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=neon-fp16' '-D' '__CS_SOURCERYGXX_MAJ__=2013' '-D' '__CS_SOURCERYGXX_MIN__=5' '-D' '__CS_SOURCERYGXX_REV__=39'
+ c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/collect2.exe --sysroot=c:\xilinx\sdk\2013.4\gnu\arm\nt\bin\../arm-xilinx-eabi -X -o cmTryCompileExec3239451430 c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crti.o c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtbegin.o -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3 -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib CMakeFiles/cmTryCompileExec3239451430.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtend.o c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtn.o
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008018
+mingw32-make.exe[1]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-xilinx-eabi-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec3239451430/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3239451430.dir\build.make CMakeFiles/cmTryCompileExec3239451430.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp']
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_arm\CMakeFiles\CMakeTmp\CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3239451430.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-gcc.exe    -o CMakeFiles\cmTryCompileExec3239451430.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec3239451430]
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec3239451430.dir\link.txt --verbose=1]
+  ignore line: [C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-gcc.exe     -v CMakeFiles/cmTryCompileExec3239451430.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec3239451430   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/lto-wrapper.exe]
+  ignore line: [Target: arm-xilinx-eabi]
+  ignore line: [Configured with: /scratch/janisjo/build6/2013.05-xilinx-eabi-release/src/gcc-4.7-2013.05/configure --build=i686-pc-linux-gnu --host=i686-mingw32 --target=arm-xilinx-eabi --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv7-a --with-cpu=cortex-a9 --with-float=softfp --with-fpu=neon-fp16 --disable-multilib --with-gnu-as --with-gnu-ld --with-specs='%{save-temps: -fverbose-asm} -D__CS_SOURCERYGXX_MAJ__=2013 -D__CS_SOURCERYGXX_MIN__=5 -D__CS_SOURCERYGXX_REV__=39 %{O2:%{!fno-remove-local-statics: -fremove-local-statics}} %{O*:%{O|O0|O1|O2|Os:]
+  ignore line: [:%{!fno-remove-local-statics: -fremove-local-statics}}}' --enable-languages=c,c++ --disable-shared --enable-lto --with-newlib --with-pkgversion='Sourcery CodeBench Lite 2013.05-39' --with-bugurl=https://sourcery.mentor.com/GNUToolchain/ --disable-nls --prefix=/opt/codesourcery --with-headers=yes --with-sysroot=/opt/codesourcery/arm-xilinx-eabi --with-build-sysroot=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/install/host-i686-mingw32/arm-xilinx-eabi --with-libiconv-prefix=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-gmp=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-mpfr=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-mpc=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-ppl=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-cloog=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-libelf=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --disable-libgomp --disable-libitm --enable-poison-system-directories --with-build-time-tools=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/tools-i686-pc-linux-gnu-2013.05-39-arm-xilinx-eabi-i686-mingw32/arm-xilinx-eabi/bin --with-build-time-tools=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/tools-i686-pc-linux-gnu-2013.05-39-arm-xilinx-eabi-i686-mingw32/arm-xilinx-eabi/bin SED=sed]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.7.3 (Sourcery CodeBench Lite 2013.05-39) ]
+  ignore line: [COMPILER_PATH=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3239451430' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=neon-fp16' '-D' '__CS_SOURCERYGXX_MAJ__=2013' '-D' '__CS_SOURCERYGXX_MIN__=5' '-D' '__CS_SOURCERYGXX_REV__=39']
+  link line: [ c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/collect2.exe --sysroot=c:\xilinx\sdk\2013.4\gnu\arm\nt\bin\../arm-xilinx-eabi -X -o cmTryCompileExec3239451430 c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crti.o c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtbegin.o -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3 -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib CMakeFiles/cmTryCompileExec3239451430.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtend.o c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtn.o]
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/collect2.exe] ==> ignore
+    arg [--sysroot=c:\xilinx\sdk\2013.4\gnu\arm\nt\bin\../arm-xilinx-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3239451430] ==> ignore
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crti.o] ==> ignore
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtbegin.o] ==> ignore
+    arg [-Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3] ==> dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3]
+    arg [-Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc] ==> dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc]
+    arg [-Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib] ==> dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib]
+    arg [-Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib] ==> dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib]
+    arg [CMakeFiles/cmTryCompileExec3239451430.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtend.o] ==> ignore
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtn.o] ==> ignore
+  remove lib [gcc]
+  collapse library dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3] ==> [c:/Xilinx/SDK/2013.4/gnu/arm/nt/lib/gcc/arm-xilinx-eabi/4.7.3]
+  collapse library dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc] ==> [c:/Xilinx/SDK/2013.4/gnu/arm/nt/lib/gcc]
+  collapse library dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib] ==> [c:/Xilinx/SDK/2013.4/gnu/arm/nt/arm-xilinx-eabi/lib]
+  collapse library dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib] ==> [c:/Xilinx/SDK/2013.4/gnu/arm/nt/arm-xilinx-eabi/lib]
+  implicit libs: [c]
+  implicit dirs: [c:/Xilinx/SDK/2013.4/gnu/arm/nt/lib/gcc/arm-xilinx-eabi/4.7.3;c:/Xilinx/SDK/2013.4/gnu/arm/nt/lib/gcc;c:/Xilinx/SDK/2013.4/gnu/arm/nt/arm-xilinx-eabi/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec3008919147/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3008919147.dir\build.make CMakeFiles/cmTryCompileExec3008919147.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_arm\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3008919147.dir/testCXXCompiler.cxx.obj
+C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-g++.exe     -o CMakeFiles\cmTryCompileExec3008919147.dir\testCXXCompiler.cxx.obj -c C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_arm\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3008919147
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec3008919147.dir\link.txt --verbose=1
+C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-g++.exe        CMakeFiles/cmTryCompileExec3008919147.dir/testCXXCompiler.cxx.obj  -o cmTryCompileExec3008919147  
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008018
+mingw32-make.exe[1]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec2318540361/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2318540361.dir\build.make CMakeFiles/cmTryCompileExec2318540361.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_arm\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2318540361.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-g++.exe     -o CMakeFiles\cmTryCompileExec2318540361.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec2318540361
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2318540361.dir\link.txt --verbose=1
+C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-g++.exe      -v CMakeFiles/cmTryCompileExec2318540361.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec2318540361   
+Using built-in specs.
+COLLECT_GCC=C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-g++.exe
+COLLECT_LTO_WRAPPER=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/lto-wrapper.exe
+Target: arm-xilinx-eabi
+Configured with: /scratch/janisjo/build6/2013.05-xilinx-eabi-release/src/gcc-4.7-2013.05/configure --build=i686-pc-linux-gnu --host=i686-mingw32 --target=arm-xilinx-eabi --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv7-a --with-cpu=cortex-a9 --with-float=softfp --with-fpu=neon-fp16 --disable-multilib --with-gnu-as --with-gnu-ld --with-specs='%{save-temps: -fverbose-asm} -D__CS_SOURCERYGXX_MAJ__=2013 -D__CS_SOURCERYGXX_MIN__=5 -D__CS_SOURCERYGXX_REV__=39 %{O2:%{!fno-remove-local-statics: -fremove-local-statics}} %{O*:%{O|O0|O1|O2|Os:;:%{!fno-remove-local-statics: -fremove-local-statics}}}' --enable-languages=c,c++ --disable-shared --enable-lto --with-newlib --with-pkgversion='Sourcery CodeBench Lite 2013.05-39' --with-bugurl=https://sourcery.mentor.com/GNUToolchain/ --disable-nls --prefix=/opt/codesourcery --with-headers=yes --with-sysroot=/opt/codesourcery/arm-xilinx-eabi --with-build-sysroot=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/install/host-i686-mingw32/arm-xilinx-eabi --with-libiconv-prefix=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-gmp=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-mpfr=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-mpc=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-ppl=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-cloog=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-libelf=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --disable-libgomp --disable-libitm --enable-poison-system-directories --with-build-time-tools=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/tools-i686-pc-linux-gnu-2013.05-39-arm-xilinx-eabi-i686-mingw32/arm-xilinx-eabi/bin --with-build-time-tools=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/tools-i686-pc-linux-gnu-2013.05-39-arm-xilinx-eabi-i686-mingw32/arm-xilinx-eabi/bin SED=sed
+Thread model: single
+gcc version 4.7.3 (Sourcery CodeBench Lite 2013.05-39) 
+COMPILER_PATH=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib/;c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2318540361' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=neon-fp16' '-D' '__CS_SOURCERYGXX_MAJ__=2013' '-D' '__CS_SOURCERYGXX_MIN__=5' '-D' '__CS_SOURCERYGXX_REV__=39'
+ c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/collect2.exe --sysroot=c:\xilinx\sdk\2013.4\gnu\arm\nt\bin\../arm-xilinx-eabi -X -o cmTryCompileExec2318540361 c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crti.o c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtbegin.o -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3 -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib CMakeFiles/cmTryCompileExec2318540361.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtend.o c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtn.o
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008018
+mingw32-make.exe[1]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-xilinx-eabi-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec2318540361/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2318540361.dir\build.make CMakeFiles/cmTryCompileExec2318540361.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpeg_libs_arm/CMakeFiles/CMakeTmp']
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_arm\CMakeFiles\CMakeTmp\CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2318540361.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-g++.exe     -o CMakeFiles\cmTryCompileExec2318540361.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec2318540361]
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2318540361.dir\link.txt --verbose=1]
+  ignore line: [C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-g++.exe      -v CMakeFiles/cmTryCompileExec2318540361.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec2318540361   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Xilinx\SDK\2013.4\gnu\arm\nt\bin\arm-xilinx-eabi-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/lto-wrapper.exe]
+  ignore line: [Target: arm-xilinx-eabi]
+  ignore line: [Configured with: /scratch/janisjo/build6/2013.05-xilinx-eabi-release/src/gcc-4.7-2013.05/configure --build=i686-pc-linux-gnu --host=i686-mingw32 --target=arm-xilinx-eabi --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv7-a --with-cpu=cortex-a9 --with-float=softfp --with-fpu=neon-fp16 --disable-multilib --with-gnu-as --with-gnu-ld --with-specs='%{save-temps: -fverbose-asm} -D__CS_SOURCERYGXX_MAJ__=2013 -D__CS_SOURCERYGXX_MIN__=5 -D__CS_SOURCERYGXX_REV__=39 %{O2:%{!fno-remove-local-statics: -fremove-local-statics}} %{O*:%{O|O0|O1|O2|Os:]
+  ignore line: [:%{!fno-remove-local-statics: -fremove-local-statics}}}' --enable-languages=c,c++ --disable-shared --enable-lto --with-newlib --with-pkgversion='Sourcery CodeBench Lite 2013.05-39' --with-bugurl=https://sourcery.mentor.com/GNUToolchain/ --disable-nls --prefix=/opt/codesourcery --with-headers=yes --with-sysroot=/opt/codesourcery/arm-xilinx-eabi --with-build-sysroot=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/install/host-i686-mingw32/arm-xilinx-eabi --with-libiconv-prefix=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-gmp=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-mpfr=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-mpc=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-ppl=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-cloog=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --with-libelf=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/pkg-2013.05-39-arm-xilinx-eabi/xilinx-2013.05-39-arm-xilinx-eabi.extras/host-libs-i686-mingw32/usr --disable-libgomp --disable-libitm --enable-poison-system-directories --with-build-time-tools=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/tools-i686-pc-linux-gnu-2013.05-39-arm-xilinx-eabi-i686-mingw32/arm-xilinx-eabi/bin --with-build-time-tools=/scratch/janisjo/build6/2013.05-xilinx-eabi-release/obj/tools-i686-pc-linux-gnu-2013.05-39-arm-xilinx-eabi-i686-mingw32/arm-xilinx-eabi/bin SED=sed]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.7.3 (Sourcery CodeBench Lite 2013.05-39) ]
+  ignore line: [COMPILER_PATH=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib/]
+  ignore line: [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2318540361' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=neon-fp16' '-D' '__CS_SOURCERYGXX_MAJ__=2013' '-D' '__CS_SOURCERYGXX_MIN__=5' '-D' '__CS_SOURCERYGXX_REV__=39']
+  link line: [ c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/collect2.exe --sysroot=c:\xilinx\sdk\2013.4\gnu\arm\nt\bin\../arm-xilinx-eabi -X -o cmTryCompileExec2318540361 c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crti.o c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtbegin.o -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3 -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib -Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib CMakeFiles/cmTryCompileExec2318540361.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtend.o c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtn.o]
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../libexec/gcc/arm-xilinx-eabi/4.7.3/collect2.exe] ==> ignore
+    arg [--sysroot=c:\xilinx\sdk\2013.4\gnu\arm\nt\bin\../arm-xilinx-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2318540361] ==> ignore
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crti.o] ==> ignore
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtbegin.o] ==> ignore
+    arg [-Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3] ==> dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3]
+    arg [-Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc] ==> dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc]
+    arg [-Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib] ==> dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib]
+    arg [-Lc:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib] ==> dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib]
+    arg [CMakeFiles/cmTryCompileExec2318540361.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtend.o] ==> ignore
+    arg [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/crtn.o] ==> ignore
+  remove lib [gcc]
+  collapse library dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3] ==> [c:/Xilinx/SDK/2013.4/gnu/arm/nt/lib/gcc/arm-xilinx-eabi/4.7.3]
+  collapse library dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc] ==> [c:/Xilinx/SDK/2013.4/gnu/arm/nt/lib/gcc]
+  collapse library dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib] ==> [c:/Xilinx/SDK/2013.4/gnu/arm/nt/arm-xilinx-eabi/lib]
+  collapse library dir [c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../arm-xilinx-eabi/lib] ==> [c:/Xilinx/SDK/2013.4/gnu/arm/nt/arm-xilinx-eabi/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [c:/Xilinx/SDK/2013.4/gnu/arm/nt/lib/gcc/arm-xilinx-eabi/4.7.3;c:/Xilinx/SDK/2013.4/gnu/arm/nt/lib/gcc;c:/Xilinx/SDK/2013.4/gnu/arm/nt/arm-xilinx-eabi/lib]
+  implicit fwks: []
+
+

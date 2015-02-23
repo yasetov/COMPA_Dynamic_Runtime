@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe cr liborcc.a  CMakeFiles/orcc.dir/src/access_file.c.obj CMakeFiles/orcc.dir/src/dataflow.c.obj CMakeFiles/orcc.dir/src/options.c.obj CMakeFiles/orcc.dir/src/trace.c.obj CMakeFiles/orcc.dir/src/util.c.obj CMakeFiles/orcc.dir/src/writer.c.obj
+C:\MinGW\bin\ranlib.exe liborcc.a

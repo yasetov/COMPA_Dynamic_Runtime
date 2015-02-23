@@ -1,0 +1,3 @@
+THIRPARTY=false
+PROCESSOR=MbCluster0_mb0_microblaze_0
+MSS_FILE=system.mss

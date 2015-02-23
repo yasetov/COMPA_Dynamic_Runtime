@@ -1,0 +1,21 @@
+11:20:24 **** Build of configuration Debug for project runtime ****
+make all 
+'Building file: ../src/ctrl_fifo_functions.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -mhard-float -MMD -MP -MF"src/ctrl_fifo_functions.d" -MT"src/ctrl_fifo_functions.d" -o "src/ctrl_fifo_functions.o" "../src/ctrl_fifo_functions.c"
+'Finished building: ../src/ctrl_fifo_functions.c'
+' '
+'Building file: ../src/timerMngr.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -mhard-float -MMD -MP -MF"src/timerMngr.d" -MT"src/timerMngr.d" -o "src/timerMngr.o" "../src/timerMngr.c"
+'Finished building: ../src/timerMngr.c'
+' '
+'Building target: libruntime.a'
+'Invoking: MicroBlaze archiver'
+mb-ar -r  "libruntime.a"  ./src/ctrl_fifo_functions.o ./src/timerMngr.o   
+mb-ar: creating libruntime.a
+'Finished building target: libruntime.a'
+' '
+
+11:20:25 Build Finished (took 979ms)
+

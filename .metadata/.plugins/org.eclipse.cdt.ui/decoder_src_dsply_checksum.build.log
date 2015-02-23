@@ -1,0 +1,20 @@
+11:02:52 **** Incremental Build of configuration Debug for project decoder_src_dsply_checksum ****
+make all 
+'Building file: ../src/display.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../bsp_mb_17/MbCluster1_mb07_64Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display.d" -MT"src/display.d" -o "src/display.o" "../src/display.c"
+../src/display.c: In function 'display_scheduler':
+../src/display.c:331:30: error: 'TmrCtrInstancePtr' undeclared (first use in this function)
+    clocks = XTmrCtr_GetValue(TmrCtrInstancePtr, TIMER_CNTR_0);
+                              ^
+../src/display.c:331:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/display.c:331:49: error: 'TIMER_CNTR_0' undeclared (first use in this function)
+    clocks = XTmrCtr_GetValue(TmrCtrInstancePtr, TIMER_CNTR_0);
+                                                 ^
+../src/display.c:335:5: error: 'mailbox_addr' undeclared (first use in this function)
+    *mailbox_addr = clocks;
+     ^
+make: *** [src/display.o] Erreur 1
+
+11:02:53 Build Finished (took 480ms)
+

@@ -1,0 +1,26 @@
+15:08:18 **** Build of configuration Debug for project decoder_parser_parseheaders_lm ****
+make all 
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_parseheaders/Top_decoder_parser_parseheaders.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\decoder_parser_parseheaders_lm\src" -c -fmessage-length=0 -I../../bsp_mb_10_lm/MbCluster1_mb00_256Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Top_decoder_parser_parseheaders.d" -MT"src/Top_decoder_parser_parseheaders.d" -o "src/Top_decoder_parser_parseheaders.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_parseheaders/Top_decoder_parser_parseheaders.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_parseheaders/Top_decoder_parser_parseheaders.c'
+' '
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_parseheaders/decoder_parser_parseheaders.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\decoder_parser_parseheaders_lm\src" -c -fmessage-length=0 -I../../bsp_mb_10_lm/MbCluster1_mb00_256Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/decoder_parser_parseheaders.d" -MT"src/decoder_parser_parseheaders.d" -o "src/decoder_parser_parseheaders.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_parseheaders/decoder_parser_parseheaders.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/decoder_parser_parseheaders/decoder_parser_parseheaders.c'
+' '
+'Building target: decoder_parser_parseheaders_lm.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\orcc" -Wl,-T -Wl,../src/lscript.ld -L../../bsp_mb_10_lm/MbCluster1_mb00_256Kb_microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "decoder_parser_parseheaders_lm.elf"  ./src/Top_decoder_parser_parseheaders.o ./src/decoder_parser_parseheaders.o   -lorcc -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: decoder_parser_parseheaders_lm.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size decoder_parser_parseheaders_lm.elf  |tee "decoder_parser_parseheaders_lm.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 144952	   1744	   2344	 149040	  24630	decoder_parser_parseheaders_lm.elf
+'Finished building: decoder_parser_parseheaders_lm.elf.size'
+' '
+
+15:08:20 Build Finished (took 2s.200ms)
+

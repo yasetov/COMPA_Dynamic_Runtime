@@ -1,0 +1,7 @@
+10:58:49 **** Clean-only build of configuration Release for project decoder_motion_add ****
+make clean 
+rm -rf  ./src/Top_decoder_motion_add.o ./src/decoder_motion_add.o  ./src/Top_decoder_motion_add.d ./src/decoder_motion_add.d  decoder_motion_add.elf.size  decoder_motion_add.elf
+' '
+
+10:58:49 Build Finished (took 370ms)
+

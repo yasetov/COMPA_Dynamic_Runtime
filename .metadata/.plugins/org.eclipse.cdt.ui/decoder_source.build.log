@@ -1,0 +1,104 @@
+15:36:19 **** Incremental Build of configuration Release for project decoder_source ****
+make all 
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O2 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../mb15_bsp/MbCluster1_mb07_64Kb_microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/source.d" -MT"src/source.d" -o "src/source.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c"
+In file included from C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c:7:0:
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/util.h:98:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c: In function 'sendData':
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c:72:6: warning: unused variable 'index_aligned_O' [-Wunused-variable]
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c: In function 'source_initialize':
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c:94:1: warning: label 'finished' defined but not used [-Wunused-label]
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c:92:6: warning: unused variable 'i' [-Wunused-variable]
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c: At top level:
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:41:1: warning: 'fifo_i8_has_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:45:1: warning: 'fifo_i8_get_num_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:49:1: warning: 'fifo_i8_has_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:60:1: warning: 'fifo_i8_get_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:72:1: warning: 'fifo_i8_clear' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:80:1: warning: 'fifo_i8_read_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:86:1: warning: 'fifo_i8_write_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:41:1: warning: 'fifo_i16_has_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:45:1: warning: 'fifo_i16_get_num_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:49:1: warning: 'fifo_i16_has_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:60:1: warning: 'fifo_i16_get_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:72:1: warning: 'fifo_i16_clear' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:80:1: warning: 'fifo_i16_read_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:86:1: warning: 'fifo_i16_write_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:41:1: warning: 'fifo_i32_has_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:45:1: warning: 'fifo_i32_get_num_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:49:1: warning: 'fifo_i32_has_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:60:1: warning: 'fifo_i32_get_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:72:1: warning: 'fifo_i32_clear' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:80:1: warning: 'fifo_i32_read_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:86:1: warning: 'fifo_i32_write_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:41:1: warning: 'fifo_i64_has_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:45:1: warning: 'fifo_i64_get_num_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:49:1: warning: 'fifo_i64_has_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:60:1: warning: 'fifo_i64_get_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:72:1: warning: 'fifo_i64_clear' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:80:1: warning: 'fifo_i64_read_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:86:1: warning: 'fifo_i64_write_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:41:1: warning: 'fifo_u8_has_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:45:1: warning: 'fifo_u8_get_num_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:49:1: warning: 'fifo_u8_has_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:72:1: warning: 'fifo_u8_clear' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:80:1: warning: 'fifo_u8_read_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:86:1: warning: 'fifo_u8_write_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:41:1: warning: 'fifo_u16_has_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:45:1: warning: 'fifo_u16_get_num_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:49:1: warning: 'fifo_u16_has_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:60:1: warning: 'fifo_u16_get_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:72:1: warning: 'fifo_u16_clear' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:80:1: warning: 'fifo_u16_read_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:86:1: warning: 'fifo_u16_write_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:41:1: warning: 'fifo_u32_has_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:45:1: warning: 'fifo_u32_get_num_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:49:1: warning: 'fifo_u32_has_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:60:1: warning: 'fifo_u32_get_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:72:1: warning: 'fifo_u32_clear' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:80:1: warning: 'fifo_u32_read_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:86:1: warning: 'fifo_u32_write_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:41:1: warning: 'fifo_u64_has_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:45:1: warning: 'fifo_u64_get_num_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:49:1: warning: 'fifo_u64_has_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:60:1: warning: 'fifo_u64_get_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:72:1: warning: 'fifo_u64_clear' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:80:1: warning: 'fifo_u64_read_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:86:1: warning: 'fifo_u64_write_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:41:1: warning: 'fifo_float_has_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:45:1: warning: 'fifo_float_get_num_tokens' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:49:1: warning: 'fifo_float_has_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:60:1: warning: 'fifo_float_get_room' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:72:1: warning: 'fifo_float_clear' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:80:1: warning: 'fifo_float_read_1' defined but not used [-Wunused-function]
+C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include/generic_fifo.h:86:1: warning: 'fifo_float_write_1' defined but not used [-Wunused-function]
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/source/source.c'
+' '
+'Building target: decoder_source.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\mpeg_libs_mb\orcc" -Wl,-T -Wl,../src/lscript.ld -L../../mb15_bsp/MbCluster1_mb07_64Kb_microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "decoder_source.elf"  ./src/source.o   -lorcc -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: decoder_source.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size decoder_source.elf  |tee "decoder_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34856	    292	   2100	  37248	   9180	decoder_source.elf
+'Finished building: decoder_source.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck decoder_source.elf -hw ../../hw_platform_1/system.xml -pe MbCluster1_mb07_64Kb_microblaze_0  |tee "decoder_source.elf.elfcheck"
+elfcheck
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../hw_platform_1/system.xml -pe
+MbCluster1_mb07_64Kb_microblaze_0 decoder_source.elf 
+
+ELF file	: decoder_source.elf
+elfcheck passed.
+'Finished building: decoder_source.elf.elfcheck'
+' '
+
+15:36:21 Build Finished (took 2s.636ms)
+

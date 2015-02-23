@@ -1,0 +1,7 @@
+10:55:39 **** Clean-only build of configuration Debug for project Src_Dsply ****
+make clean 
+rm -rf  ./src/Top_src_dsply.o ./src/display.o ./src/display_adv7511.o ./src/my_cf_hdmi.o ./src/source.o ./src/sourceFileMgr.o ./src/transmitter.o  ./src/Top_src_dsply.d ./src/display.d ./src/display_adv7511.d ./src/my_cf_hdmi.d ./src/source.d ./src/sourceFileMgr.d ./src/transmitter.d  Src_Dsply.elf.size  Src_Dsply.elf
+' '
+
+10:55:40 Build Finished (took 450ms)
+

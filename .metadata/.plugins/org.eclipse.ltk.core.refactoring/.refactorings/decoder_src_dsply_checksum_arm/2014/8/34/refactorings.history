@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;decoder_src_dsply_checksum_arm/src/top_src_dsply_mb.c&apos; to &apos;top_src_dsply.c&apos;" description="Rename resource &apos;top_src_dsply_mb.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/top_src_dsply_mb.c" name="top_src_dsply.c" stamp="1408637196005" updateReferences="true"/>
+</session>

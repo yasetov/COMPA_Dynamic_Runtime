@@ -1,0 +1,21 @@
+12:56:22 **** Build of configuration Debug for project Top_03 ****
+make all 
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_03/Top_03.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\runtime\src" -I"C:\Users\yolivave\work\Xilinx_SDK_workspace\Top_03\src" -c -fmessage-length=0 -I../../bsp_cluster0_mb3/MbCluster0_mb3_microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Top_03.d" -MT"src/Top_03.d" -o "src/Top_03.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_03/Top_03.c"
+'Finished building: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/Top_03/Top_03.c'
+' '
+'Building target: Top_03.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\Actors\Debug" -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\runtime\Debug" -Wl,-T -Wl,../src/lscript.ld -L../../bsp_cluster0_mb3/MbCluster0_mb3_microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Top_03.elf"  ./src/Top_03.o   -lActors -lruntime -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Top_03.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Top_03.elf  |tee "Top_03.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 385712	    328	   2556	 388596	  5edf4	Top_03.elf
+'Finished building: Top_03.elf.size'
+' '
+
+12:56:27 Build Finished (took 5s.527ms)
+

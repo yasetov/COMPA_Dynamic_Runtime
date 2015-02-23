@@ -1,0 +1,13 @@
+09:40:06 **** Build of configuration Debug for project decoder_src_dsply ****
+make all 
+'Building file: C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/display.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -c -fmessage-length=0 -I../../mb00_bsp/MbCluster0_mb00_256Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display.d" -MT"src/display.d" -o "src/display.o" "C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/display.c"
+C:/Users/yolivave/work/orcc-gen/mpeg4Visual/serial/Compa/src/display.c:10:21: fatal error: xtime_l.h: No such file or directory
+ #include "xtime_l.h"
+                     ^
+compilation terminated.
+make: *** [src/display.o] Erreur 1
+
+09:40:06 Build Finished (took 380ms)
+

@@ -1,0 +1,187 @@
+15:13:08 **** Build of project mpegC ****
+"C:\\MinGW\\bin\\mingw32-make.exe" all 
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:\Users\yolivave\work\mpegC -BC:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC --check-build-system CMakeFiles\Makefile.cmake 0
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_start C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles\progress.marks
+C:/MinGW/bin/mingw32-make -f CMakeFiles\Makefile2 all
+mingw32-make[1]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+C:/MinGW/bin/mingw32-make -f libs\roxml\CMakeFiles\roxml.dir\build.make libs/roxml/CMakeFiles/roxml.dir/depend
+mingw32-make[2]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" C:\Users\yolivave\work\mpegC C:\Users\yolivave\work\mpegC\libs\roxml C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\roxml C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\roxml\CMakeFiles\roxml.dir\DependInfo.cmake --color=
+Scanning dependencies of target roxml
+mingw32-make[2]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+C:/MinGW/bin/mingw32-make -f libs\roxml\CMakeFiles\roxml.dir\build.make libs/roxml/CMakeFiles/roxml.dir/build
+mingw32-make[2]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 35
+[  2%] Building C object libs/roxml/CMakeFiles/roxml.dir/src/roxml-internal.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\roxml && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/roxml.dir/includes_C.rsp   -o CMakeFiles\roxml.dir\src\roxml-internal.c.obj   -c C:\Users\yolivave\work\mpegC\libs\roxml\src\roxml-internal.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 36
+[  5%] Building C object libs/roxml/CMakeFiles/roxml.dir/src/roxml-parse-engine.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\roxml && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/roxml.dir/includes_C.rsp   -o CMakeFiles\roxml.dir\src\roxml-parse-engine.c.obj   -c C:\Users\yolivave\work\mpegC\libs\roxml\src\roxml-parse-engine.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 37
+[  8%] Building C object libs/roxml/CMakeFiles/roxml.dir/src/roxml.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\roxml && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/roxml.dir/includes_C.rsp   -o CMakeFiles\roxml.dir\src\roxml.c.obj   -c C:\Users\yolivave\work\mpegC\libs\roxml\src\roxml.c
+Linking C static library libroxml.a
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\roxml && "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -P CMakeFiles\roxml.dir\cmake_clean_target.cmake
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\roxml && "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\roxml.dir\link.txt --verbose=1
+C:\MinGW\bin\ar.exe cr libroxml.a  CMakeFiles/roxml.dir/src/roxml-internal.c.obj CMakeFiles/roxml.dir/src/roxml-parse-engine.c.obj CMakeFiles/roxml.dir/src/roxml.c.obj
+C:\MinGW\bin\ranlib.exe libroxml.a
+mingw32-make[2]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles  35 36 37
+[  8%] Built target roxml
+C:/MinGW/bin/mingw32-make -f libs\orcc\CMakeFiles\orcc.dir\build.make libs/orcc/CMakeFiles/orcc.dir/depend
+mingw32-make[2]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" C:\Users\yolivave\work\mpegC C:\Users\yolivave\work\mpegC\libs\orcc C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc\CMakeFiles\orcc.dir\DependInfo.cmake --color=
+Scanning dependencies of target orcc
+mingw32-make[2]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+C:/MinGW/bin/mingw32-make -f libs\orcc\CMakeFiles\orcc.dir\build.make libs/orcc/CMakeFiles/orcc.dir/build
+mingw32-make[2]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 17
+[ 10%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/access_file.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\access_file.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\access_file.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 18
+[ 13%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/dataflow.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\dataflow.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\dataflow.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 19
+[ 16%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/options.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\options.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\options.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 20
+[ 18%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/source.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\source.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c: In function 'source_open':
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c:129:9: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  return (long long)file;
+         ^
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c: In function 'source_sizeOfFileFd':
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c:154:13: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  FILE* fd = (FILE*) fdVal;
+             ^
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c: In function 'source_rewindFd':
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c:171:13: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  FILE* fd = (FILE*) fdVal;
+             ^
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c: In function 'source_closeFd':
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c:184:13: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  FILE* fd = (FILE*) fdVal;
+             ^
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c: In function 'source_readNBytesFd':
+C:\Users\yolivave\work\mpegC\libs\orcc\src\source.c:221:13: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  FILE* fd = (FILE*) fdVal;
+             ^
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 21
+[ 21%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/trace.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\trace.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\trace.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 22
+[ 24%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/util.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\util.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\util.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 23
+[ 27%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/writer.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\writer.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\writer.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 24
+[ 29%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/audio.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\audio.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\audio.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 25
+[ 32%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/compare.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\compare.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\compare.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 26
+[ 35%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/compareyuv.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\compareyuv.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\compareyuv.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 27
+[ 37%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/fps_print.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\fps_print.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\fps_print.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 28
+[ 40%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/graph.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\graph.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\graph.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 29
+[ 43%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/getopt.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\getopt.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\getopt.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 30
+[ 45%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/mapping.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\mapping.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\mapping.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 31
+[ 48%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/scheduler.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\scheduler.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\scheduler.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 32
+[ 51%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/serialize.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\serialize.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\serialize.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 33
+[ 54%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/thread.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\thread.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\thread.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 34
+[ 56%] Building C object libs/orcc/CMakeFiles/orcc.dir/src/display_sdl.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/orcc.dir/includes_C.rsp   -march=native -o CMakeFiles\orcc.dir\src\display_sdl.c.obj   -c C:\Users\yolivave\work\mpegC\libs\orcc\src\display_sdl.c
+Linking C static library liborcc.a
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -P CMakeFiles\orcc.dir\cmake_clean_target.cmake
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\libs\orcc && "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\orcc.dir\link.txt --verbose=1
+C:\MinGW\bin\ar.exe cr liborcc.a  CMakeFiles/orcc.dir/src/access_file.c.obj CMakeFiles/orcc.dir/src/dataflow.c.obj CMakeFiles/orcc.dir/src/options.c.obj CMakeFiles/orcc.dir/src/source.c.obj CMakeFiles/orcc.dir/src/trace.c.obj CMakeFiles/orcc.dir/src/util.c.obj CMakeFiles/orcc.dir/src/writer.c.obj CMakeFiles/orcc.dir/src/audio.c.obj CMakeFiles/orcc.dir/src/compare.c.obj CMakeFiles/orcc.dir/src/compareyuv.c.obj CMakeFiles/orcc.dir/src/fps_print.c.obj CMakeFiles/orcc.dir/src/graph.c.obj CMakeFiles/orcc.dir/src/getopt.c.obj CMakeFiles/orcc.dir/src/mapping.c.obj CMakeFiles/orcc.dir/src/scheduler.c.obj CMakeFiles/orcc.dir/src/serialize.c.obj CMakeFiles/orcc.dir/src/thread.c.obj CMakeFiles/orcc.dir/src/display_sdl.c.obj
+C:\MinGW\bin\ranlib.exe liborcc.a
+mingw32-make[2]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+[ 56%] Built target orcc
+C:/MinGW/bin/mingw32-make -f src\CMakeFiles\Top_decoder_serial.dir\build.make src/CMakeFiles/Top_decoder_serial.dir/depend
+mingw32-make[2]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" C:\Users\yolivave\work\mpegC C:\Users\yolivave\work\mpegC\src C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src\CMakeFiles\Top_decoder_serial.dir\DependInfo.cmake --color=
+Scanning dependencies of target Top_decoder_serial
+mingw32-make[2]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+C:/MinGW/bin/mingw32-make -f src\CMakeFiles\Top_decoder_serial.dir\build.make src/CMakeFiles/Top_decoder_serial.dir/build
+mingw32-make[2]: Entering directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 1
+[ 59%] Building C object src/CMakeFiles/Top_decoder_serial.dir/Top_decoder_serial.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\Top_decoder_serial.c.obj   -c C:\Users\yolivave\work\mpegC\src\Top_decoder_serial.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 2
+[ 62%] Building C object src/CMakeFiles/Top_decoder_serial.dir/source.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\source.c.obj   -c C:\Users\yolivave\work\mpegC\src\source.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 3
+[ 64%] Building C object src/CMakeFiles/Top_decoder_serial.dir/display.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\display.c.obj   -c C:\Users\yolivave\work\mpegC\src\display.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 4
+[ 67%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_merger.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_merger.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_merger.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 5
+[ 70%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_parser_parseheaders.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_parser_parseheaders.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_parser_parseheaders.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 6
+[ 72%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_parser_mvseq.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_parser_mvseq.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_parser_mvseq.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 7
+[ 75%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_parser_blkexp.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_parser_blkexp.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_parser_blkexp.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 8
+[ 78%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_parser_mvrecon.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_parser_mvrecon.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_parser_mvrecon.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 9
+[ 81%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_texture_DCsplit.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_texture_DCsplit.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_texture_DCsplit.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 10
+[ 83%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_texture_IS.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_texture_IS.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_texture_IS.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 11
+[ 86%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_texture_IAP.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_texture_IAP.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_texture_IAP.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 12
+[ 89%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_texture_IQ.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_texture_IQ.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_texture_IQ.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 13
+[ 91%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_texture_idct2d.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_texture_idct2d.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_texture_idct2d.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 14
+[ 94%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_texture_DCReconstruction_addressing.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_texture_DCReconstruction_addressing.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_texture_DCReconstruction_addressing.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 15
+[ 97%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_texture_DCReconstruction_invpred.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_texture_DCReconstruction_invpred.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_texture_DCReconstruction_invpred.c
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 16
+[100%] Building C object src/CMakeFiles/Top_decoder_serial.dir/decoder_motion_add.c.obj
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && C:\MinGW\bin\gcc.exe   -g @CMakeFiles/Top_decoder_serial.dir/includes_C.rsp   -march=native -o CMakeFiles\Top_decoder_serial.dir\decoder_motion_add.c.obj   -c C:\Users\yolivave\work\mpegC\src\decoder_motion_add.c
+Linking C executable C:\Users\yolivave\work\mpegC\bin\Top_decoder_serial.exe
+cd /d C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\src && "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\Top_decoder_serial.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\Top_decoder_serial.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Top_decoder_serial.dir/objects.a @CMakeFiles\Top_decoder_serial.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -g    -Wl,--whole-archive CMakeFiles\Top_decoder_serial.dir/objects.a -Wl,--no-whole-archive  -o C:\Users\yolivave\work\mpegC\bin\Top_decoder_serial.exe -Wl,--out-implib,C:\Users\yolivave\work\mpegC\bin\libTop_decoder_serial.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ..\libs\orcc\liborcc.a ..\libs\roxml\libroxml.a -lmingw32 C:\Users\yolivave\work\mpegC\libs\windows\SDL-1.2.15\lib\x86\SDLmain.lib C:\Users\yolivave\work\mpegC\libs\windows\SDL-1.2.15\lib\x86\SDL.dll -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make[2]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+[100%] Built target Top_decoder_serial
+mingw32-make[1]: Leaving directory 'C:/Users/yolivave/work/Xilinx_SDK_workspace/mpegC'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_start C:\Users\yolivave\work\Xilinx_SDK_workspace\mpegC\CMakeFiles 0
+
+15:13:28 Build Finished (took 20s.520ms)
+

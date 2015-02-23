@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Src_Dsply/src/display_sdl.c&apos; to &apos;display_adv7511.c&apos;" description="Rename resource &apos;display_sdl.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/display_sdl.c" name="display_adv7511.c" stamp="1404116539693" updateReferences="true"/>
+</session>

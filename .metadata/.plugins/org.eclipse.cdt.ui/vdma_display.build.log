@@ -1,0 +1,97 @@
+15:58:06 **** Build of configuration Debug for project vdma_display ****
+make all 
+'Building file: ../src/axi_display.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../vdma_display_bsp/processor_subsystem_microblaze_1/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/axi_display.d" -MT"src/axi_display.d" -o "src/axi_display.o" "../src/axi_display.c"
+../src/axi_display.c: In function 'reset_vidpipe':
+../src/axi_display.c:343:9: warning: unused variable 'i' [-Wunused-variable]
+../src/axi_display.c: In function 'configure_rgb2ycrcb':
+../src/axi_display.c:365:10: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+../src/axi_display.c: In function 'configure_resampler':
+../src/axi_display.c:375:9: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+../src/axi_display.c: In function 'enable_tpg':
+../src/axi_display.c:388:13: warning: unused variable 'i' [-Wunused-variable]
+../src/axi_display.c: In function 'ReadSetup':
+../src/axi_display.c:522:24: warning: unused variable 'dst_data_fill' [-Wunused-variable]
+../src/axi_display.c:522:13: warning: unused variable 'data_fill' [-Wunused-variable]
+../src/axi_display.c: In function 'IicLowLevelDynEeprom':
+../src/axi_display.c:674:5: warning: variable 'BytesWritten' set but not used [-Wunused-but-set-variable]
+../src/axi_display.c: In function 'main':
+../src/axi_display.c:753:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+../src/axi_display.c:846:10: warning: implicit declaration of function 'Init_TPG' [-Wimplicit-function-declaration]
+../src/axi_display.c:752:13: warning: unused variable 'Reg32Value' [-Wunused-variable]
+../src/axi_display.c:750:11: warning: unused variable 'inchar' [-Wunused-variable]
+../src/axi_display.c:747:16: warning: unused variable 'input' [-Wunused-variable]
+../src/axi_display.c: In function 'write_si570':
+../src/axi_display.c:1147:7: warning: variable 'zz' set but not used [-Wunused-but-set-variable]
+'Finished building: ../src/axi_display.c'
+' '
+'Building file: ../src/ivk_osd.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../vdma_display_bsp/processor_subsystem_microblaze_1/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ivk_osd.d" -MT"src/ivk_osd.d" -o "src/ivk_osd.o" "../src/ivk_osd.c"
+'Finished building: ../src/ivk_osd.c'
+' '
+'Building file: ../src/ivk_video_resolution.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../vdma_display_bsp/processor_subsystem_microblaze_1/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ivk_video_resolution.d" -MT"src/ivk_video_resolution.d" -o "src/ivk_video_resolution.o" "../src/ivk_video_resolution.c"
+'Finished building: ../src/ivk_video_resolution.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../vdma_display_bsp/processor_subsystem_microblaze_1/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/vtc_config.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../vdma_display_bsp/processor_subsystem_microblaze_1/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vtc_config.d" -MT"src/vtc_config.d" -o "src/vtc_config.o" "../src/vtc_config.c"
+../src/vtc_config.c: In function 'SignalSetup':
+../src/vtc_config.c:190:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+../src/vtc_config.c:190:2: warning: incompatible implicit declaration of built-in function 'memset' [enabled by default]
+../src/vtc_config.c: In function 'VtcExample':
+../src/vtc_config.c:273:2: warning: incompatible implicit declaration of built-in function 'memset' [enabled by default]
+'Finished building: ../src/vtc_config.c'
+' '
+'Building file: ../src/xtpg_app.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../vdma_display_bsp/processor_subsystem_microblaze_1/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xtpg_app.d" -MT"src/xtpg_app.d" -o "src/xtpg_app.o" "../src/xtpg_app.c"
+../src/xtpg_app.c: In function 'Init_TPG':
+../src/xtpg_app.c:59:14: warning: unused variable 'i' [-Wunused-variable]
+../src/xtpg_app.c: In function 'configure_TPG':
+../src/xtpg_app.c:69:14: warning: unused variable 'i' [-Wunused-variable]
+../src/xtpg_app.c: In function 'xTPG_main':
+../src/xtpg_app.c:139:10: warning: unused variable 'print_counter' [-Wunused-variable]
+../src/xtpg_app.c:137:9: warning: unused variable 'fr0l_g2g_clk_count' [-Wunused-variable]
+../src/xtpg_app.c:129:30: warning: unused variable 'g2g_frac' [-Wunused-variable]
+../src/xtpg_app.c:128:8: warning: unused variable 'vid_clk_freq_Mhz' [-Wunused-variable]
+../src/xtpg_app.c:122:17: warning: unused variable 'Reg32Value' [-Wunused-variable]
+../src/xtpg_app.c:121:16: warning: unused variable 'select' [-Wunused-variable]
+../src/xtpg_app.c:119:10: warning: unused variable 'Framesize' [-Wunused-variable]
+'Finished building: ../src/xtpg_app.c'
+' '
+'Building target: vdma_display.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../vdma_display_bsp/processor_subsystem_microblaze_1/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "vdma_display.elf"  ./src/axi_display.o ./src/ivk_osd.o ./src/ivk_video_resolution.o ./src/platform.o ./src/vtc_config.o ./src/xtpg_app.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: vdma_display.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size vdma_display.elf  |tee "vdma_display.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  45756	   1516	   5920	  53192	   cfc8	vdma_display.elf
+'Finished building: vdma_display.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck vdma_display.elf -hw ../../hw_platform_0/system.xml -pe processor_subsystem_microblaze_1  |tee "vdma_display.elf.elfcheck"
+elfcheck
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../hw_platform_0/system.xml -pe
+processor_subsystem_microblaze_1 vdma_display.elf 
+
+ELF file	: vdma_display.elf
+elfcheck passed.
+'Finished building: vdma_display.elf.elfcheck'
+' '
+
+15:58:12 Build Finished (took 6s.131ms)
+

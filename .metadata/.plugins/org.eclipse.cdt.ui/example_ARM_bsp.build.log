@@ -1,0 +1,6 @@
+11:48:59 **** Build of project example_ARM_bsp ****
+make -k all 
+'Finished building libraries'
+
+11:48:59 Build Finished (took 130ms)
+

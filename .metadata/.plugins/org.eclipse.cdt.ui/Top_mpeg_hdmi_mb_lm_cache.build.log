@@ -1,0 +1,41 @@
+19:28:39 **** Incremental Build of configuration Debug for project Top_mpeg_hdmi_mb_lm_cache ****
+make all 
+'Building file: ../src/display.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\inc" -c -fmessage-length=0 -I../../bsp_mb_10_256Kb/MbCluster1_mb00_256Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display.d" -MT"src/display.d" -o "src/display.o" "../src/display.c"
+'Finished building: ../src/display.c'
+' '
+'Building file: ../src/display_MB.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\inc" -c -fmessage-length=0 -I../../bsp_mb_10_256Kb/MbCluster1_mb00_256Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_MB.d" -MT"src/display_MB.d" -o "src/display_MB.o" "../src/display_MB.c"
+'Finished building: ../src/display_MB.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\inc" -c -fmessage-length=0 -I../../bsp_mb_10_256Kb/MbCluster1_mb00_256Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/source.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\inc" -c -fmessage-length=0 -I../../bsp_mb_10_256Kb/MbCluster1_mb00_256Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/source.d" -MT"src/source.d" -o "src/source.o" "../src/source.c"
+'Finished building: ../src/source.c'
+' '
+'Building file: ../src/source_MB.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -w -O0 -g3 -I"C:\Users\yolivave\work\orcc-gen\mpeg4Visual\serial\Compa\libs\orcc\include" -I"C:\Users\yolivave\Downloads\no-OS-master\adv7511\library\zc\inc" -c -fmessage-length=0 -I../../bsp_mb_10_256Kb/MbCluster1_mb00_256Kb_microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/source_MB.d" -MT"src/source_MB.d" -o "src/source_MB.o" "../src/source_MB.c"
+'Finished building: ../src/source_MB.c'
+' '
+'Building target: Top_mpeg_hdmi_mb_lm_cache.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L"C:\Users\yolivave\work\Xilinx_SDK_workspace\Actors\Debug" -Wl,-T -Wl,../src/lscript.ld -L../../bsp_mb_10_256Kb/MbCluster1_mb00_256Kb_microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Top_mpeg_hdmi_mb_lm_cache.elf"  ./src/display.o ./src/display_MB.o ./src/main.o ./src/source.o ./src/source_MB.o   -lActors -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Top_mpeg_hdmi_mb_lm_cache.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Top_mpeg_hdmi_mb_lm_cache.elf  |tee "Top_mpeg_hdmi_mb_lm_cache.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10828	    380	   2272	  13480	   34a8	Top_mpeg_hdmi_mb_lm_cache.elf
+'Finished building: Top_mpeg_hdmi_mb_lm_cache.elf.size'
+' '
+
+19:28:42 Build Finished (took 2s.746ms)
+

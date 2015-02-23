@@ -1,0 +1,30 @@
+09:44:49 **** Incremental Build of configuration Debug for project test_linux ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM Linux gcc compiler'
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -I"C:\Users\yolivave\work\Xilinx_Linux_kernel_src\linux-xlnx\include" -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:9:0:
+C:\Users\yolivave\work\Xilinx_Linux_kernel_src\linux-xlnx\include/linux/init.h:153:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'load_default_modules'
+ void __init load_default_modules(void);
+             ^
+C:\Users\yolivave\work\Xilinx_Linux_kernel_src\linux-xlnx\include/linux/init.h:154:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_rootfs'
+ int __init init_rootfs(void);
+            ^
+C:\Users\yolivave\work\Xilinx_Linux_kernel_src\linux-xlnx\include/linux/init.h:272:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'parse_early_param'
+ void __init parse_early_param(void);
+             ^
+C:\Users\yolivave\work\Xilinx_Linux_kernel_src\linux-xlnx\include/linux/init.h:273:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'parse_early_options'
+ void __init parse_early_options(char *cmdline);
+             ^
+In file included from C:\Users\yolivave\work\Xilinx_Linux_kernel_src\linux-xlnx\include/linux/kernel.h:6:0,
+                 from C:\Users\yolivave\work\Xilinx_Linux_kernel_src\linux-xlnx\include/linux/list.h:8,
+                 from C:\Users\yolivave\work\Xilinx_Linux_kernel_src\linux-xlnx\include/linux/module.h:9,
+                 from ../src/main.c:10:
+C:\Users\yolivave\work\Xilinx_Linux_kernel_src\linux-xlnx\include/linux/linkage.h:7:25: fatal error: asm/linkage.h: No such file or directory
+ #include <asm/linkage.h>
+                         ^
+compilation terminated.
+make: *** [src/main.o] Erreur 1
+
+09:44:52 Build Finished (took 3s.117ms)
+
