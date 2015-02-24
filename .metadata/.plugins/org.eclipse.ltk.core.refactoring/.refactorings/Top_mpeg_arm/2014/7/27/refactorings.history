@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Top_mpeg_arm/src/cf_hdmi.h&apos; to &apos;my_cf_hdmi.h&apos;" description="Rename resource &apos;cf_hdmi.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/cf_hdmi.h" name="my_cf_hdmi.h" stamp="1404375763883" updateReferences="true"/>
-</session>

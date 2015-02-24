@@ -1,7 +1,0 @@
-10:58:46 **** Clean-only build of configuration Release for project Top_mpeg_checksum_mb_lm ****
-make clean 
-rm -rf  ./src/display.o ./src/source.o ./src/top_src_dsply.o  ./src/display.d ./src/source.d ./src/top_src_dsply.d  Top_mpeg_checksum_mb_lm.elf.size  Top_mpeg_checksum_mb_lm.elf
-' '
-
-10:58:47 Build Finished (took 440ms)
-

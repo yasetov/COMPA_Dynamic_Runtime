@@ -1,7 +1,0 @@
-10:58:52 **** Clean-only build of configuration Release for project Top_mpeg_01_lm ****
-make clean 
-rm -rf  ./src/Top_decoder_serial.o ./src/decoder_merger.o ./src/decoder_motion_add.o ./src/decoder_motion_framebuf.o ./src/decoder_motion_interpolation.o ./src/decoder_parser_blkexp.o ./src/decoder_parser_mvrecon.o ./src/decoder_parser_mvseq.o ./src/decoder_parser_parseheaders.o ./src/decoder_texture_DCReconstruction_addressing.o ./src/decoder_texture_DCReconstruction_invpred.o ./src/decoder_texture_DCsplit.o ./src/decoder_texture_IAP.o ./src/decoder_texture_IQ.o ./src/decoder_texture_IS.o ./src/decoder_texture_idct2d.o  ./src/Top_decoder_serial.d ./src/decoder_merger.d ./src/decoder_motion_add.d ./src/decoder_motion_framebuf.d ./src/decoder_motion_interpolation.d ./src/decoder_parser_blkexp.d ./src/decoder_parser_mvrecon.d ./src/decoder_parser_mvseq.d ./src/decoder_parser_parseheaders.d ./src/decoder_texture_DCReconstruction_addressing.d ./src/decoder_texture_DCReconstruction_invpred.d ./src/decoder_texture_DCsplit.d ./src/decoder_texture_IAP.d ./src/decoder_texture_IQ.d ./src/decoder_texture_IS.d ./src/decoder_texture_idct2d.d  Top_mpeg_01_lm.elf.size  Top_mpeg_01_lm.elf
-' '
-
-10:58:53 Build Finished (took 290ms)
-

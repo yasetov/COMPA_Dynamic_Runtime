@@ -1,7 +1,0 @@
-10:58:53 **** Clean-only build of configuration Release for project decoder_texture_DCReconstruction_addressing ****
-make clean 
-rm -rf  ./src/Top_decoder_texture_DCReconstruction_addressing.o ./src/decoder_texture_DCReconstruction_addressing.o  ./src/Top_decoder_texture_DCReconstruction_addressing.d ./src/decoder_texture_DCReconstruction_addressing.d  decoder_texture_DCReconstruction_addressing.elf.size  decoder_texture_DCReconstruction_addressing.elf
-' '
-
-10:58:54 Build Finished (took 280ms)
-

@@ -1,7 +1,0 @@
-10:58:54 **** Clean-only build of configuration Release for project decoder_texture_DCReconstruction_invpred ****
-make clean 
-rm -rf  ./src/Top_decoder_texture_DCReconstruction_invpred.o ./src/decoder_texture_DCReconstruction_invpred.o  ./src/Top_decoder_texture_DCReconstruction_invpred.d ./src/decoder_texture_DCReconstruction_invpred.d  decoder_texture_DCReconstruction_invpred.elf.size  decoder_texture_DCReconstruction_invpred.elf
-' '
-
-10:58:55 Build Finished (took 350ms)
-

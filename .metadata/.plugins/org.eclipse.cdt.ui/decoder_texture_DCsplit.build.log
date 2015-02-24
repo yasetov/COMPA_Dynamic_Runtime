@@ -1,7 +1,0 @@
-10:58:56 **** Clean-only build of configuration Release for project decoder_texture_DCsplit ****
-make clean 
-rm -rf  ./src/Top_decoder_texture_DCsplit.o ./src/decoder_texture_DCsplit.o  ./src/Top_decoder_texture_DCsplit.d ./src/decoder_texture_DCsplit.d  decoder_texture_DCsplit.elf.size  decoder_texture_DCsplit.elf
-' '
-
-10:58:56 Build Finished (took 270ms)
-

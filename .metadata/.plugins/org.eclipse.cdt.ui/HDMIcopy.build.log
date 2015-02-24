@@ -1,7 +1,0 @@
-11:41:21 **** Clean-only build of configuration Debug for project HDMIcopy ****
-make clean 
-rm -rf  ./src/cf_hdmi.o ./src/main.o ./src/transmitter.o  ./src/cf_hdmi.d ./src/main.d ./src/transmitter.d  HDMIcopy.elf.size  HDMIcopy.elf
-' '
-
-11:41:22 Build Finished (took 170ms)
-

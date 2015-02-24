@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;decoder_parser_parseheaders/src/lscript.ld&apos; to &apos;lscript.ld_bsp0&apos;" description="Rename resource &apos;lscript.ld&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/lscript.ld" name="lscript.ld_bsp0" stamp="1408369090682" updateReferences="true"/>
-</session>

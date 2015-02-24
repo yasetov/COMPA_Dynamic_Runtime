@@ -1,7 +1,0 @@
-10:58:57 **** Clean-only build of configuration Release for project decoder_texture_IQ ****
-make clean 
-rm -rf  ./src/Top_decoder_texture_IQ.o ./src/decoder_texture_IQ.o  ./src/Top_decoder_texture_IQ.d ./src/decoder_texture_IQ.d  decoder_texture_IQ.elf.size  decoder_texture_IQ.elf
-' '
-
-10:58:57 Build Finished (took 320ms)
-

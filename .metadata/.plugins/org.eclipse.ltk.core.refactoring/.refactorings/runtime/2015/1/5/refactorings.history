@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;runtime/src/config.h&apos; to &apos;ctrl_fifo.h&apos;" description="Rename resource &apos;config.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/config.h" name="ctrl_fifo.h" stamp="1422457631009" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;runtime/src/ctrl_fifo.h&apos; to &apos;ctrl_fifo_mb.h&apos;" description="Rename resource &apos;ctrl_fifo.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ctrl_fifo.h" name="ctrl_fifo_mb.h" stamp="1422457704302" updateReferences="true"/>
-</session>

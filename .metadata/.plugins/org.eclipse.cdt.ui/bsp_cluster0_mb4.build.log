@@ -1,6 +1,0 @@
-18:50:25 **** Clean-only build of project bsp_cluster0_mb4 ****
-make -k clean 
-rm -f MbCluster0_mb4_microblaze_0/lib/libxil.a
-
-18:50:25 Build Finished (took 293ms)
-

@@ -1,6 +1,0 @@
-16:23:54 **** Clean-only build of project standalone_bsp_9 ****
-make -k clean 
-make: *** Pas de règle pour fabriquer la cible « clean ».
-
-16:23:54 Build Finished (took 156ms)
-

@@ -1,6 +1,0 @@
-18:50:21 **** Clean-only build of project app_xilkernel_bsp ****
-make -k clean 
-rm -f MbCluster0_mb0_microblaze_0/lib/libxil.a
-
-18:50:22 Build Finished (took 930ms)
-

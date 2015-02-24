@@ -1,7 +1,0 @@
-11:09:10 **** Clean-only build of configuration Debug for project source ****
-make clean 
-rm -rf  ./src/source.o  ./src/source.d  source.elf.size  source.elf
-' '
-
-11:09:10 Build Finished (took 220ms)
-

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Top_00/src/top.txt&apos; to &apos;top_00.txt&apos;" description="Rename resource &apos;top.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/top.txt" name="top_00.txt" stamp="1423579873218" updateReferences="true"/>
-</session>

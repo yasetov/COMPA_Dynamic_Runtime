@@ -1,7 +1,0 @@
-10:58:53 **** Clean-only build of configuration Release for project decoder_parser_parseheaders ****
-make clean 
-rm -rf  ./src/Top_decoder_parser_parseheaders.o ./src/decoder_parser_parseheaders.o  ./src/Top_decoder_parser_parseheaders.d ./src/decoder_parser_parseheaders.d  decoder_parser_parseheaders.elf.size  decoder_parser_parseheaders.elf
-' '
-
-10:58:53 Build Finished (took 320ms)
-
