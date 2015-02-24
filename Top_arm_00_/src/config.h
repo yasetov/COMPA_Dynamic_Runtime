@@ -27,6 +27,7 @@
 //-----//
 
 #define ENABLE_START_SIGNAL			0
+#define GET_NB_FRAMES
 
 //-------//
 

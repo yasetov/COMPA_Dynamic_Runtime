@@ -18,7 +18,7 @@ extern "C" {
 //extern ctrl_fifo_hdlr ctrl_fifo_input[NB_PROCESSORS];
 
 void broadcastFlushMsg_blocking(int nbProcessors);
-void broadcastGetMetricsMsg_blocking(int nbProcessors, u64 execTimes[NB_PROCESSORS][NB_ACTORS + 1], u32 writtenBytes[NB_PROCESSORS][NB_ACTORS + 1]);
+void broadcastGetMetricsMsg_blocking(int nbProcessors, u64 execTimes[NB_PROCESSORS][NB_ACTORS + 1], u32 writtenBytes[NB_PROCESSORS][NB_ACTORS + 1], u32* nbFrames);
 
 #ifdef __cplusplus
 }

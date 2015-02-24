@@ -64,3 +64,13 @@ void printExecTimes(u32 nbProcessors, u64 execTimes[NB_PROCESSORS][NB_ACTORS + 1
 		xil_printf("proc %d total time : %d s ; %d ms ; %d µs\n\r", i, tdata.seconds, tdata.miliseconds, tdata.microseconds);
 	}
 }
+
+void printFPS(u32 nbFrames, u64 totalTime){
+	TIME_DATA tdata;
+	u32 fps = 0;
+	fillTimeData(totalTime, &tdata);
+	if(tdata.seconds > 0){
+		fps = nbFrames / tdata.seconds;
+		xil_printf("%d frames per seconds \n\r", fps);
+	}
+}

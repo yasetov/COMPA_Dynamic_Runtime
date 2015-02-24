@@ -44,6 +44,6 @@
 #define CTRL_FIFO_OUT_0_WR_IX_ADDR	CTRL_FIFO_OUT_0_RD_IX_ADDR + 4
 
 #define END_FLAG_SIZE				1 // Bytes written to indicate the end of decoding.
-
+#define GET_NB_FRAMES
 
 #endif /* CONFIG_H_ */

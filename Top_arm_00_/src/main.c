@@ -33,6 +33,7 @@ ctrl_fifo_hdlr input_data;							/* Fifo for input data */
 
 u64 execTimes[NB_PROCESSORS][NB_ACTORS+1] = {0}; // The last element stores the global execution time!
 u32 writtenBytes[NB_PROCESSORS][NB_ACTORS+1] = {0}; // The last element stores the total number of written bytes!
+u32 nbFrames = 0;											// Frames per Seconds metric
 u64 nbCycles[NB_PROCESSORS];
 //-------//
 
@@ -120,10 +121,11 @@ int main(int argc, char *argv[]){
 				//	/******/
 #endif
 //				readTimers();
-				broadcastGetMetricsMsg_blocking(prevNbProc, execTimes, writtenBytes);
+				broadcastGetMetricsMsg_blocking(prevNbProc, execTimes, writtenBytes, &nbFrames);
 
-				printExecTimes(prevNbProc, execTimes);
-				printWrittenBytesValues(prevNbProc, writtenBytes);
+//				printExecTimes(prevNbProc, execTimes);
+//				printWrittenBytesValues(prevNbProc, writtenBytes);
+				printFPS(nbFrames, execTimes[0][NB_ACTORS]);
 
 				broadcastFlushMsg_blocking(prevNbProc); // Sending flush messages and waiting for flush completed msg from all active processors.
 

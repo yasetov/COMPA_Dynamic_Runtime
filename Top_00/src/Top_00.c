@@ -44,8 +44,8 @@ XTmrCtr* TmrCtrInstancePtr = &xtimer;
 	XAxiPmon_GetMetricCounter(AxiPmonInstPtr, XPAR_CPU_ID%8)
 XAxiPmon AxiPmon;
 
-u8 fps = 0;	// Frame per seconds
 u32 frameCtr = 0;
+u8 fps = 0;
 
 u8 init_done = 0;
 u32 nbElements = 0;
@@ -114,7 +114,7 @@ void main(){
 	// Initializing FIFO with input data.
 	init_ctrl_fifo_hdlr(&input_data_fifo, INPUT_FILE_START_ADDR, INPUT_FILE_RD_IX_ADDR, INPUT_FILE_WR_IX_ADDR, INPUT_FILE_SIZE);
 
-//	microblaze_enable_dcache();
+	microblaze_enable_dcache();
 	microblaze_enable_icache();
 	while(1){
 		// Reading input control FIFO to get the actor(s) to be executed.
@@ -135,6 +135,7 @@ void main(){
 				nbDynActors = 0;
 				memset(execTimes, 0, sizeof(execTimes));
 				memset(writtenBytes, 0, sizeof(writtenBytes));
+				frameCtr = 0;
 //				XAxiPmon_ResetMetricCounter(&AxiPmon);
 				break;
 			case MSG_GET_METRICS:
@@ -142,7 +143,9 @@ void main(){
 				sendCtrlMsgType_blocking(&ctrl_fifo_output, MSG_GET_METRICS_OK);
 				push_contents_output_ctrl_fifo_blocking(&ctrl_fifo_output, (u8*)execTimes, sizeof(execTimes));
 				push_contents_output_ctrl_fifo_blocking(&ctrl_fifo_output, (u8*)writtenBytes, sizeof(writtenBytes));
-				break;
+				#ifdef GET_NB_FRAMES
+					push_contents_output_ctrl_fifo_blocking(&ctrl_fifo_output, (u8*)&frameCtr, sizeof(frameCtr));
+				#endif
 			default:
 				break;
 		}

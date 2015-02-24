@@ -29,7 +29,7 @@ void broadcastFlushMsg_blocking(int nbProcessors){
 	}
 }
 
-void broadcastGetMetricsMsg_blocking(int nbProcessors, u64 execTimes[NB_PROCESSORS][NB_ACTORS + 1], u32 writtenBytes[NB_PROCESSORS][NB_ACTORS + 1]){
+void broadcastGetMetricsMsg_blocking(int nbProcessors, u64 execTimes[NB_PROCESSORS][NB_ACTORS + 1], u32 writtenBytes[NB_PROCESSORS][NB_ACTORS + 1], u32* nbFrames){
 	int i;
 	u8 msg;
 
@@ -46,4 +46,8 @@ void broadcastGetMetricsMsg_blocking(int nbProcessors, u64 execTimes[NB_PROCESSO
 		pop_contents_input_ctrl_fifo_extended_blocking(&ctrl_fifo_input[i], (u8*)execTimes[i], sizeof(u64)*(NB_ACTORS + 1));
 		pop_contents_input_ctrl_fifo_extended_blocking(&ctrl_fifo_input[i], (u8*)writtenBytes[i], sizeof(u32)*(NB_ACTORS + 1));
 	}
+
+	#ifdef GET_NB_FRAMES
+		pop_contents_input_ctrl_fifo_extended_blocking(&ctrl_fifo_input[0], (u8*)nbFrames, sizeof(*nbFrames));
+	#endif
 }

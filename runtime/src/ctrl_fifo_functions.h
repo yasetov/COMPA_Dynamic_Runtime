@@ -15,7 +15,7 @@ struct fifo_u8_t {
 // #define PRINT_FIRINGS
 
 /*********************
- * Control messages. Defined as macros because the size of an enum depends on the compiler.
+ * Control messages. Defined as macros because the size of an enum varies depending on the compiler.
  */
 
 #define MSG_NONE							0

@@ -25,6 +25,7 @@ typedef struct{
 void initTimers();
 void fillTimeData(u64 cycles, TIME_DATA* ptr);
 void printExecTimes(u32 nbProcessors, u64 execTimes[NB_PROCESSORS][NB_ACTORS + 1]);
+void printFPS(u32 nbFrames, u64 totalTime);
 
 #ifdef __cplusplus
 }
