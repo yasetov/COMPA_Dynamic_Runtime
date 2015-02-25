@@ -71,6 +71,6 @@ void printFPS(u32 nbFrames, u64 totalTime){
 	fillTimeData(totalTime, &tdata);
 	if(tdata.seconds > 0){
 		fps = nbFrames / tdata.seconds;
-		xil_printf("%d frames per seconds \n\r", fps);
+		xil_printf("%d frames per second \n\r", fps);
 	}
 }

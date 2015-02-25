@@ -26,12 +26,12 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/ctrl_fifo_functions.c</name>
+			<name>src/runtime/ctrl_fifo_functions.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/runtime/src/ctrl_fifo_functions.c</locationURI>
 		</link>
 		<link>
-			<name>src/ctrl_fifo_functions.h</name>
+			<name>src/runtime/includes/ctrl_fifo_functions.h</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/runtime/src/ctrl_fifo_functions.h</locationURI>
 		</link>

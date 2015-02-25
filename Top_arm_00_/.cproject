@@ -39,6 +39,8 @@
 								</option>
 								<option id="xilinx.gnu.compiler.inferred.swplatform.flags.366664137" name="Software Platform Inferred Flags" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value=" " valueType="string"/>
 								<option id="xilinx.gnu.compiler.dircategory.includes.1526490809" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/runtime/includes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
 									<listOptionValue builtIn="false" value="../src/adv7511/inc"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/runtime/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mpeg_libs_arm/[Source directory]/orcc/include}&quot;"/>
