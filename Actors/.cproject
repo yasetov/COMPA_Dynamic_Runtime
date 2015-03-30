@@ -92,7 +92,7 @@
 								<option id="xilinx.gnu.compiler.option.warnings.allwarn.707825824" name="All warnings (-Wall)" superClass="xilinx.gnu.compiler.option.warnings.allwarn" value="false" valueType="boolean"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.usele.605263482" name="Produce little endian code (-mlittle-endian)" superClass="xilinx.gnu.mb.compiler.inferred.usele" value="true" valueType="boolean"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.usebarrel.1937487328" name="Use Barrel Shifter (-mxl-barrel-shift)" superClass="xilinx.gnu.mb.compiler.inferred.usebarrel" value="true" valueType="boolean"/>
-								<option id="xilinx.gnu.compiler.misc.other.584194727" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0" valueType="string"/>
+								<option id="xilinx.gnu.compiler.misc.other.584194727" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 " valueType="string"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.usereorderinstr.362725782" name="Do not generate swap instruction (-mno-xl-reorder)" superClass="xilinx.gnu.mb.compiler.inferred.usereorderinstr" value="true" valueType="boolean"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.usepcmp.1206834242" name="Use Pattern Compare (-mxl-pattern-compare)" superClass="xilinx.gnu.mb.compiler.inferred.usepcmp" value="true" valueType="boolean"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.usediv.1781388268" name="Use hardware divider (-mno-xl-soft-div)" superClass="xilinx.gnu.mb.compiler.inferred.usediv" value="true" valueType="boolean"/>
