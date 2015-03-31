@@ -12,21 +12,21 @@
 //// Action schedulers
 ////extern int source_scheduler();
 ////extern int display_scheduler();
-//extern void call_decoder_merger_scheduler();
-//extern void call_decoder_parser_parseheaders_scheduler();
-//extern void call_decoder_parser_mvseq_scheduler();
-//extern void call_decoder_parser_blkexp_scheduler();
-//extern void call_decoder_parser_mvrecon_scheduler();
-//extern void call_decoder_texture_DCsplit_scheduler();
-//extern void call_decoder_texture_IS_scheduler();
-//extern void call_decoder_texture_IAP_scheduler();
-//extern void call_decoder_texture_IQ_scheduler();
-//extern void call_decoder_texture_idct2d_scheduler();
-//extern void call_decoder_texture_DCReconstruction_addressing_scheduler();
-//extern void call_decoder_texture_DCReconstruction_invpred_scheduler();
-//extern void call_decoder_motion_interpolation_scheduler();
-//extern void call_decoder_motion_add_scheduler();
-//extern void call_decoder_motion_framebuf_scheduler();
+extern void call_decoder_merger_scheduler();
+extern void call_decoder_parser_parseheaders_scheduler();
+extern void call_decoder_parser_mvseq_scheduler();
+extern void call_decoder_parser_blkexp_scheduler();
+extern void call_decoder_parser_mvrecon_scheduler();
+extern void call_decoder_texture_DCsplit_scheduler();
+extern void call_decoder_texture_IS_scheduler();
+extern void call_decoder_texture_IAP_scheduler();
+extern void call_decoder_texture_IQ_scheduler();
+extern void call_decoder_texture_idct2d_scheduler();
+extern void call_decoder_texture_DCReconstruction_addressing_scheduler();
+extern void call_decoder_texture_DCReconstruction_invpred_scheduler();
+extern void call_decoder_motion_interpolation_scheduler();
+extern void call_decoder_motion_add_scheduler();
+extern void call_decoder_motion_framebuf_scheduler();
 
 //////////////////////////////////////////////////////////
 // Control FIFOs.
@@ -49,7 +49,7 @@ u8 fps = 0;
 
 u8 init_done = 0;
 u32 nbElements = 0;
-u32 nbStaticActors = 2;
+u32 nbStaticActors = 1;
 u32 nbDynActors = 0;
 actorsNames sched_callers_array[NB_ACTORS] = {0};
 u64 globalStartTime, globalStopTime;
@@ -114,7 +114,7 @@ void main(){
 	// Initializing FIFO with input data.
 	init_ctrl_fifo_hdlr(&input_data_fifo, INPUT_FILE_START_ADDR, INPUT_FILE_RD_IX_ADDR, INPUT_FILE_WR_IX_ADDR, INPUT_FILE_SIZE);
 
-	microblaze_enable_dcache();
+//	microblaze_enable_dcache();
 	microblaze_enable_icache();
 	while(1){
 		// Reading input control FIFO to get the actor(s) to be executed.

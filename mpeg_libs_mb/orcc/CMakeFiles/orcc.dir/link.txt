@@ -1,2 +1,0 @@
-C:\Xilinx\SDK\2013.4\gnu\microblaze\nt\bin\mb-ar.exe cr liborcc.a  CMakeFiles/orcc.dir/src/access_file.c.obj CMakeFiles/orcc.dir/src/dataflow.c.obj CMakeFiles/orcc.dir/src/options.c.obj CMakeFiles/orcc.dir/src/trace.c.obj CMakeFiles/orcc.dir/src/util.c.obj CMakeFiles/orcc.dir/src/writer.c.obj
-C:\Xilinx\SDK\2013.4\gnu\microblaze\nt\bin\mb-ranlib.exe liborcc.a

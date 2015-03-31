@@ -31,19 +31,19 @@ MEMORY
 SECTIONS
 {
 
-.vectors.reset 0x00000000 (NOLOAD) : {
+.vectors.reset 0x00000000 : {
    KEEP (*(.vectors.reset))
 } 
 
-.vectors.sw_exception 0x00000008 (NOLOAD) : {
+.vectors.sw_exception 0x00000008 : {
    KEEP (*(.vectors.sw_exception))
 } 
 
-.vectors.interrupt 0x00000010 (NOLOAD) : {
+.vectors.interrupt 0x00000010 : {
    KEEP (*(.vectors.interrupt))
 } 
 
-.vectors.hw_exception 0x00000020 (NOLOAD) : {
+.vectors.hw_exception 0x00000020 : {
    KEEP (*(.vectors.hw_exception))
 } 
 
@@ -68,15 +68,15 @@ actors_code_section : {
    *(.gnu.linkonce.t.*)
 } > local_mem
 
-.init (NOLOAD) : {
+.init : {
    KEEP (*(.init))
 } > local_mem
 
-.fini (NOLOAD) : {
+.fini : {
    KEEP (*(.fini))
 } > local_mem
 
-.ctors (NOLOAD) : {
+.ctors : {
    __CTOR_LIST__ = .;
    ___CTORS_LIST___ = .;
    KEEP (*crtbegin.o(.ctors))
@@ -87,7 +87,7 @@ actors_code_section : {
    ___CTORS_END___ = .;
 } > local_mem
 
-.dtors (NOLOAD) : {
+.dtors : {
    __DTOR_LIST__ = .;
    ___DTORS_LIST___ = .;
    KEEP (*crtbegin.o(.dtors))
@@ -133,27 +133,27 @@ actors_code_section : {
    __data_end = .;
 } > local_mem
 
-.got (NOLOAD) : {
+.got : {
    *(.got)
 } > local_mem
 
-.got1 (NOLOAD) : {
+.got1 : {
    *(.got1)
 } > local_mem
 
-.got2 (NOLOAD) : {
+.got2 : {
    *(.got2)
 } > local_mem
 
-.eh_frame (NOLOAD) : {
+.eh_frame : {
    *(.eh_frame)
 } > local_mem
 
-.jcr (NOLOAD) : {
+.jcr : {
    *(.jcr)
 } > local_mem
 
-.gcc_except_table (NOLOAD) : {
+.gcc_except_table : {
    *(.gcc_except_table)
 } > local_mem
 
@@ -209,7 +209,7 @@ _SDA2_BASE_ = __sdata2_start + ((__sbss2_end - __sdata2_start) / 2 );
 
 /* Generate Stack and Heap definitions */
 
-.heap (NOLOAD) : {
+.heap : {
    . = ALIGN(8);
    _heap = .;
    _heap_start = .;
@@ -217,7 +217,7 @@ _SDA2_BASE_ = __sdata2_start + ((__sbss2_end - __sdata2_start) / 2 );
    _heap_end = .;
 } > local_mem
 
-.stack (NOLOAD) : {
+.stack : {
    _stack_end = .;
    . += _STACK_SIZE;
    . = ALIGN(8);

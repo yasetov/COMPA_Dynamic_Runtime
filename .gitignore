@@ -2,7 +2,11 @@
 bsp_*
 *.o
 */Debug/*
+*/Release/*
 *.a
 *.log
-*.bit
-*hw_platform*
+#*.bit
+#*hw_platform*
+*Top_arm_00/*
+*Top_arm_01/*
+*raw_apps/*

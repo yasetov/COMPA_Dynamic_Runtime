@@ -65,7 +65,8 @@ int main(int argc, char *argv[]){
 	}
 
 	xil_printf("Executing with %d processor(s)\n\r", currNbProc);
-	initMapping();
+//	initMapping();
+	initMappingEx(currNbProc);
 
 	xil_printf("0 : Execution with 1 processor(s)\n\r");
 	xil_printf("1 : Execution with 2 processor(s)\n\r");
@@ -99,28 +100,7 @@ int main(int argc, char *argv[]){
 //			printFifoIndices(XPAR_CPU_ID);
 			if(changeMapping(&prevNbProc, &currNbProc)){
 //				printFifoIndices(XPAR_CPU_ID);
-#if USE_PERF_MON == 1
-//				// Print metric values for each slot on PMon 00
-//				printMetricValues(&AxiPmonInst_00, XPAR_AXIPMON_0_NUM_MONITOR_SLOTS, XAPM_METRIC_SET_1);
-//
-//				// Print metric values for each slot on PMon 10
-//				printMetricValues(&AxiPmonInst_10, XPAR_AXIPMON_1_NUM_MONITOR_SLOTS, XAPM_METRIC_SET_1);
 
-			//	// Print metric values for each slot on PMon 01
-			//	printMetricValues(&AxiPmonInst_01, XPAR_AXIPMON_2_NUM_MONITOR_SLOTS, XAPM_METRIC_SET_1);
-			//
-			//	// Print metric values for each slot on PMon 11
-			//	printMetricValues(&AxiPmonInst_11, XPAR_AXIPMON_3_NUM_MONITOR_SLOTS, XAPM_METRIC_SET_1);
-
-
-				// Print metric values for each slot on PMon 00
-//				printMetricValues(&AxiPmonInst_02, XPAR_MBCLUSTER0_AXI_PERF_MON_2_NUM_MONITOR_SLOTS, XAPM_METRIC_SET_2);
-
-				// Print metric values for each slot on PMon 10
-//				printMetricValues(&AxiPmonInst_12, XPAR_MBCLUSTER1_AXI_PERF_MON_2_NUM_MONITOR_SLOTS, XAPM_METRIC_SET_2);
-				//	/******/
-#endif
-//				readTimers();
 				broadcastGetMetricsMsg_blocking(prevNbProc, execTimes, writtenBytes, &nbFrames);
 
 //				printExecTimes(prevNbProc, execTimes);

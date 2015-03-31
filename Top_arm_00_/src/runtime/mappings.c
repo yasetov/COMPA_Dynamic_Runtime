@@ -86,6 +86,36 @@ void initMapping(){
 	push_contents_output_ctrl_fifo_blocking(&ctrl_fifo_output[0], (u8*)tempSchedCaller, sizeof(tempSchedCaller));
 }
 
+void initMappingEx(u32 currNbProc){
+	int i, j;
+	int tempSchedCaller[NB_ACTORS];
+	int cntr = 0;
+
+	memset(mapping, false, sizeof(mapping));
+	switch (currNbProc) {
+		case 1:
+			setMapping00();
+			break;
+		case 2:
+			setMapping01();
+			break;
+	}
+
+	for (i = 0; i < currNbProc; i++) {
+		cntr = 0;
+		for (j = 0; j < NB_ACTORS; j++) {
+			if(mapping[i][j] == true){
+//				tempSchedCaller[cntr] = schedCallerAddr[j];
+				tempSchedCaller[cntr] = actors[j];
+				cntr++;
+			}
+		}
+		if (cntr > 0){
+			sendCtrlMsgType_blocking(&ctrl_fifo_output[i], MSG_ACTORS_MAP);
+			push_contents_output_ctrl_fifo_blocking(&ctrl_fifo_output[i], (u8*)tempSchedCaller, cntr * sizeof(int));
+		}
+	}
+}
 
 int compare (const void * a, const void * b)
 {

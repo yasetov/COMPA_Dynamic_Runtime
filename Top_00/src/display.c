@@ -89,12 +89,12 @@ enum states {
 	my_state_GetPictureSize
 };
 
-static char *stateNames[] = {
-	"GetChroma1Block",
-	"GetChroma2Block",
-	"GetLumaBlock",
-	"GetPictureSize"
-};
+//static char *stateNames[] = {
+//	"GetChroma1Block",
+//	"GetChroma2Block",
+//	"GetLumaBlock",
+//	"GetPictureSize"
+//};
 
 static enum states _FSM_state;
 
@@ -128,16 +128,16 @@ static void read_end_HEIGHT() {
 
 ////////////////////////////////////////////////////////////////////////////////
 // Functions/procedures
-extern i32 source_isMaxLoopsReached();
+//extern i32 source_isMaxLoopsReached();
 extern i32 displayYUV_getNbFrames();
-extern void source_exit(i32 exitCode);
+//extern void source_exit(i32 exitCode);
 extern u8 displayYUV_getFlags();
-extern void fpsPrintNewPicDecoded();
+//extern void fpsPrintNewPicDecoded();
 extern void displayYUV_displayPicture(u8 pictureBufferY[8388608], u8 pictureBufferU[8388608], u8 pictureBufferV[8388608], i16 pictureWidth, i16 pictureSize);
-extern void compareYUV_comparePicture(u8 pictureBufferY[8388608], u8 pictureBufferU[8388608], u8 pictureBufferV[8388608], i16 pictureWidth, i16 pictureSize);
+//extern void compareYUV_comparePicture(u8 pictureBufferY[8388608], u8 pictureBufferU[8388608], u8 pictureBufferV[8388608], i16 pictureWidth, i16 pictureSize);
 extern void displayYUV_init();
-extern void compareYUV_init();
-extern void fpsPrintInit();
+//extern void compareYUV_init();
+//extern void fpsPrintInit();
 
 
 ////////////////////////////////////////////////////////////////////////////////

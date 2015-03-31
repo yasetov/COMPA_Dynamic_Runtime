@@ -21,6 +21,7 @@ extern "C" {
 //}bool;
 
 void initMapping();
+void initMappingEx(u32 currNbProc);
 void dynamicMapping(u32 prevNbProc, u32 currNbProc, u64 execTimes[NB_PROCESSORS][NB_ACTORS + 1]);
 u8 changeMapping(u32* prevNbProc, u32* currNbProc);
 

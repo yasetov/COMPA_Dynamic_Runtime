@@ -1,1 +1,0 @@
-add-symbol-file actors_bin\\Debug\\actors_bin.elf -s "sched_callers_section" 0x20000000
